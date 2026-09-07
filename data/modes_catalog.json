@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-09-02",
+  "core_modes": [
+    {
+      "name": "Warfare",
+      "status": "core_current",
+      "description": "Large-scale combined-arms multiplayer mode.",
+      "source_url": "https://deltaforce.garena.com/"
+    },
+    {
+      "name": "Operations",
+      "status": "core_current",
+      "description": "Extraction-focused mode: deploy, loot, survive and extract.",
+      "source_url": "https://deltaforce.garena.com/"
+    },
+    {
+      "name": "Black Hawk Down",
+      "status": "core_current",
+      "description": "Story/co-op campaign mode based on the Black Hawk Down setting.",
+      "source_url": "https://deltaforce.garena.com/"
+    }
+  ],
+  "warfare_submodes": [
+    {
+      "name": "Attack and Defend",
+      "status": "current_supported"
+    },
+    {
+      "name": "Victory Unite",
+      "status": "current_supported"
+    },
+    {
+      "name": "King of the Hill",
+      "status": "current_supported"
+    },
+    {
+      "name": "Team Deathmatch",
+      "status": "current_supported"
+    },
+    {
+      "name": "Blitz",
+      "status": "rotating_or_supported"
+    },
+    {
+      "name": "Heavy Metal 2.0 (Iron Lion)",
+      "status": "event_or_rotating",
+      "date_context": "2026-03"
+    },
+    {
+      "name": "Flashpoint",
+      "status": "historical_limited_event",
+      "event_period": "2026-03-06 to 2026-03-26"
+    },
+    {
+      "name": "Wind Chaser Stadium",
+      "status": "historical_limited_event",
+      "event_period": "2026-06-30 to 2026-07-23"
+    },
+    {
+      "name": "Capture the Flag",
+      "status": "historical_limited_event",
+      "date_context": "2025-03"
+    }
+  ],
+  "operations_submodes": [
+    {
+      "name": "Standard Operations",
+      "status": "core_current"
+    },
+    {
+      "name": "Hot Zone Arena",
+      "status": "current_supported_in_meltdown"
+    },
+    {
+      "name": "Operations Roulette",
+      "status": "rotating_or_special"
+    },
+    {
+      "name": "Sinkpoint Dam",
+      "status": "historical_or_rotating_mini_mode"
+    },
+    {
+      "name": "Fiery Owl Hunt",
+      "status": "historical_or_rotating_special_mode"
+    },
+    {
+      "name": "Zero Dam - Night",
+      "status": "special_map_mode_variant"
+    }
+  ],
+  "sources": [
+    "https://deltaforce.garena.com/",
+    "https://deltaforce.garena.com/en/news/all/2MX7J4",
+    "https://deltaforce.garena.com/en/news/all/F2MA9T",
+    "https://deltaforce.garena.com/en/news/announcement/M6QYRU",
+    "https://deltaforce.garena.com/en/news/all/MW4ZYF",
+    "https://deltaforce.garena.com/en/news/announcement/M3DB35"
+  ],
+  "status_rule": "Do not describe limited or historical event modes as permanently live unless a current official update confirms them."
+}

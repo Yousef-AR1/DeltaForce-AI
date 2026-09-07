@@ -1,0 +1,37 @@
+[
+  {
+    "season": "Meltdown",
+    "effective_date": "2026-06-30",
+    "announcement_date": "2026-06-26",
+    "source": "https://deltaforce.garena.com/en/news/announcement/2MX7J4",
+    "status": "current_seed_baseline"
+  },
+  {
+    "season": "Meltdown",
+    "effective_date": "2026-07-10",
+    "announcement_date": "2026-07-10",
+    "source": "https://deltaforce.garena.com/en/news/announcement/A7WYBP",
+    "status": "operator_balance"
+  },
+  {
+    "season": "Meltdown",
+    "effective_date": "2026-07-30",
+    "announcement_date": "2026-07-30",
+    "source": "https://deltaforce.garena.com/en/news/announcement/JQTVNF",
+    "status": "mid_season_balance"
+  },
+  {
+    "season": "Echo",
+    "effective_date": "2026-04-21",
+    "announcement_date": "2026-04-20",
+    "source": "https://deltaforce.garena.com/en/news/announcement/YVRATP",
+    "status": "historical"
+  },
+  {
+    "season": "Reorientation",
+    "effective_date": "2026-09-08",
+    "announcement_date": "2026-08-26",
+    "source": "https://deltaforce.garena.com/en/news/all/7K772J",
+    "status": "announced_future"
+  }
+]

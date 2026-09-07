@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mena_turkey_2026_final_result",
+    "event_id": "dfi_1st_anniversary_mena_turkey_2026",
+    "facts": {
+      "grand_final": "ONI vs RS",
+      "champion": "RS",
+      "runner_up": "ONI",
+      "third": "R3X",
+      "first_prize_dt": 50000,
+      "second_prize_dt": 30000,
+      "third_prize_dt": 20000
+    },
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch2/mena_turkey_final_announcement.png",
+      "data/evidence/garena_mena_discord/batch2/mena_turkey_champion_results.png",
+      "data/evidence/garena_mena_discord/batch2/mena_turkey_rs_champion_graphic.png"
+    ]
+  },
+  {
+    "id": "arab_heroes_2026_full_result",
+    "event_id": "arab_heroes_2026",
+    "facts": {
+      "registered_teams": 24,
+      "players_per_team": 4,
+      "champion": "ONI",
+      "runner_up": "RS",
+      "third": "EX",
+      "fourth": "GT",
+      "fifth": "CIA",
+      "mvp": "ONI - GRIZZMAN",
+      "week1_qualified": [
+        "ONI",
+        "GT",
+        "CIA",
+        "EX",
+        "4U",
+        "CR7"
+      ],
+      "week2_qualified": [
+        "GG",
+        "RS",
+        "R3X",
+        "QS",
+        "RX",
+        "LND"
+      ]
+    },
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_teaser.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_faq_1.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_faq_2.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_24_teams_group_draw.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_content_creators.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_group_ab_post.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week1_standings.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week1_qualified.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_group2_graphic.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week2_standings.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week2_qualified.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_final_countdown.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_final_results_post.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_final_standings.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_champion_mvp.png"
+    ]
+  },
+  {
+    "id": "dfiw_2026_discord_qualifier_details",
+    "event_id": "dfi_warfare_community_qualifier_2026_emea",
+    "facts": {
+      "registration_deadline": "2026-05-15",
+      "qualifier_dates": [
+        "2026-05-22",
+        "2026-05-23",
+        "2026-05-24"
+      ],
+      "region": "Europe, Middle East, Africa",
+      "platform": "PC",
+      "roster_size": 20,
+      "notable_community_support": "Team IQ"
+    },
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch2/dfiw_team_iq_support.png"
+    ]
+  }
+]

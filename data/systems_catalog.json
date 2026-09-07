@@ -1,0 +1,27 @@
+{
+  "core_reference_systems": [
+    "Build Codes",
+    "Extraction Rules",
+    "Loot Containers",
+    "Operator Classes",
+    "Weapon Progression"
+  ],
+  "operations_systems_current_or_verified": [
+    "Black Site",
+    "Market",
+    "Auction House",
+    "Safe Box",
+    "Gear Tickets",
+    "Loot Ownership",
+    "Keycards",
+    "MandelBrick",
+    "Quantum Keys",
+    "Collectibles"
+  ],
+  "source_urls": [
+    "https://deltaforcedb.com/wiki/systems",
+    "https://www.playdeltaforce.com/events/hq/",
+    "https://deltaforce.garena.com/en/news/all/2MX7J4",
+    "https://deltaforce.garena.com/en/news/announcement/W9PGYU"
+  ]
+}

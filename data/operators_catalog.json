@@ -1,0 +1,167 @@
+{
+  "as_of": "2026-09-02",
+  "current_count": 17,
+  "classes": {
+    "Assault": [
+      "Vyron",
+      "D-Wolf",
+      "Nox",
+      "Tempest"
+    ],
+    "Support": [
+      "Stinger",
+      "Toxik",
+      "Vlinder",
+      "Branko"
+    ],
+    "Engineer": [
+      "Shepherd",
+      "Uluru",
+      "Sineva",
+      "Gizmo",
+      "N-Two"
+    ],
+    "Recon": [
+      "Luna",
+      "Hackclaw",
+      "Raptor",
+      "Morse"
+    ]
+  },
+  "current_operators": [
+    {
+      "codename": "Vyron",
+      "class": "Assault",
+      "status": "current"
+    },
+    {
+      "codename": "D-Wolf",
+      "class": "Assault",
+      "status": "current",
+      "real_name": "Kai Silva"
+    },
+    {
+      "codename": "Nox",
+      "class": "Assault",
+      "status": "current"
+    },
+    {
+      "codename": "Tempest",
+      "class": "Assault",
+      "status": "current",
+      "real_name": "Claire Ann Byers"
+    },
+    {
+      "codename": "Stinger",
+      "class": "Support",
+      "status": "current"
+    },
+    {
+      "codename": "Toxik",
+      "class": "Support",
+      "status": "current"
+    },
+    {
+      "codename": "Vlinder",
+      "class": "Support",
+      "status": "current",
+      "real_name": "Lina Van der Meer"
+    },
+    {
+      "codename": "Branko",
+      "class": "Support",
+      "status": "current",
+      "alias": "Gazelle"
+    },
+    {
+      "codename": "Shepherd",
+      "class": "Engineer",
+      "status": "current"
+    },
+    {
+      "codename": "Uluru",
+      "class": "Engineer",
+      "status": "current"
+    },
+    {
+      "codename": "Sineva",
+      "class": "Engineer",
+      "status": "current"
+    },
+    {
+      "codename": "Gizmo",
+      "class": "Engineer",
+      "status": "current",
+      "real_name": "Rashid Rahal"
+    },
+    {
+      "codename": "N-Two",
+      "class": "Engineer",
+      "status": "current",
+      "real_name": "Gabriel Mercier"
+    },
+    {
+      "codename": "Luna",
+      "class": "Recon",
+      "status": "current"
+    },
+    {
+      "codename": "Hackclaw",
+      "class": "Recon",
+      "status": "current",
+      "real_name": "Mai Xiaowen"
+    },
+    {
+      "codename": "Raptor",
+      "class": "Recon",
+      "status": "current",
+      "real_name": "Landon Harrison"
+    },
+    {
+      "codename": "Morse",
+      "class": "Recon",
+      "status": "current"
+    }
+  ],
+  "upcoming_operators": [
+    {
+      "codename": "Rover",
+      "real_name": "Rowan Walsh",
+      "class": "Support",
+      "status": "upcoming",
+      "release_date": "2026-09-08",
+      "companion": "Clover"
+    }
+  ],
+  "class_descriptions": {
+    "Assault": "Frontline mobility and direct combat.",
+    "Support": "Healing, sustain and team utility.",
+    "Engineer": "Zone control, deployables and anti-vehicle/technical utility.",
+    "Recon": "Scouting, information, disruption and flanking utility."
+  },
+  "sources": [
+    {
+      "name": "Timesaver S10 roster cross-check",
+      "url": "https://timesaver.gg/blog/delta-force-best-operators-tier-list",
+      "type": "community_editorial_crosscheck",
+      "trust": 0.86,
+      "date": "2026-08-18",
+      "note": "Used for the complete 17-operator S10 roster and class grouping."
+    },
+    {
+      "name": "Garena July 10 operator balance update",
+      "url": "https://deltaforce.garena.com/en/news/all/A7WYBP",
+      "type": "official",
+      "trust": 1.0,
+      "date": "2026-07-10",
+      "note": "Confirms several recent operators including Gizmo, N-Two, Raptor and Morse."
+    },
+    {
+      "name": "Official Rover announcement",
+      "url": "https://steamcommunity.com/app/2507950/allnews/",
+      "type": "official_steam_news",
+      "trust": 1.0,
+      "date": "2026-08-24"
+    }
+  ]
+}

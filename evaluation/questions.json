@@ -1,0 +1,702 @@
+[
+  {
+    "id": "F001",
+    "category": "factual",
+    "language": "en",
+    "question": "Who is N-Two and what class is the operator?",
+    "expected_keywords": [
+      "Gabriel Mercier",
+      "Engineer",
+      "N-Two"
+    ],
+    "expected_record_ids": [
+      "n_two_identity"
+    ]
+  },
+  {
+    "id": "F002",
+    "category": "factual",
+    "language": "en",
+    "question": "Which new Operations map arrived with Meltdown?",
+    "expected_keywords": [
+      "AZ3",
+      "Nuclear Power Plant"
+    ],
+    "expected_record_ids": [
+      "az3_map",
+      "meltdown_launch"
+    ]
+  },
+  {
+    "id": "F003",
+    "category": "factual",
+    "language": "en",
+    "question": "What ammo does the RM277 use?",
+    "expected_keywords": [
+      "6.8x51"
+    ],
+    "expected_record_ids": [
+      "rm277"
+    ]
+  },
+  {
+    "id": "FR001",
+    "category": "freshness",
+    "language": "en",
+    "question": "What was the current July 30 2026 Operations change to the SCAR-H?",
+    "expected_keywords": [
+      "0.4",
+      "0.5",
+      "limb"
+    ],
+    "expected_record_ids": [
+      "july30_scarh"
+    ]
+  },
+  {
+    "id": "FR002",
+    "category": "freshness",
+    "language": "en",
+    "question": "What did the July 30 2026 update change for SVCH reserve ammo in Warfare?",
+    "expected_keywords": [
+      "60",
+      "180"
+    ],
+    "expected_record_ids": [
+      "july30_svch"
+    ]
+  },
+  {
+    "id": "H001",
+    "category": "historical",
+    "language": "en",
+    "question": "When did Black Hawk Down become available for free?",
+    "expected_keywords": [
+      "February 21",
+      "2025"
+    ],
+    "expected_record_ids": [
+      "bhd_free"
+    ]
+  },
+  {
+    "id": "A001",
+    "category": "arabic",
+    "language": "ar",
+    "question": "ما هي خريطة العمليات الجديدة التي أضيفت في موسم Meltdown؟",
+    "expected_keywords": [
+      "AZ3"
+    ],
+    "expected_record_ids": [
+      "az3_map"
+    ]
+  },
+  {
+    "id": "A002",
+    "category": "arabic",
+    "language": "ar",
+    "question": "ما هو سلاح RM277 وما نوع الذخيرة التي يستخدمها؟",
+    "expected_keywords": [
+      "RM277",
+      "6.8x51"
+    ],
+    "expected_record_ids": [
+      "rm277"
+    ]
+  },
+  {
+    "id": "S001",
+    "category": "strategy",
+    "language": "en",
+    "question": "How should a team review its scrims?",
+    "expected_keywords": [
+      "communication",
+      "utility",
+      "rotations"
+    ],
+    "expected_record_ids": [
+      "rec_scrim_review"
+    ]
+  },
+  {
+    "id": "U001",
+    "category": "unknown",
+    "language": "en",
+    "question": "Which operator will definitely release in Delta Force in 2028?",
+    "expected_keywords": [],
+    "expected_record_ids": [],
+    "expected_behavior": "abstain"
+  },
+  {
+    "id": "U002",
+    "category": "unknown",
+    "language": "ar",
+    "question": "كم سيكون ضرر سلاح غير معلن في موسم 2028؟",
+    "expected_keywords": [],
+    "expected_record_ids": [],
+    "expected_behavior": "abstain"
+  },
+  {
+    "id": "B001",
+    "category": "black_hawk_down",
+    "language": "en",
+    "question": "How many chapters are in Black Hawk Down?",
+    "expected_keywords": [
+      "seven"
+    ],
+    "expected_record_ids": [
+      "bhd_chapters"
+    ]
+  },
+  {
+    "id": "V5_01",
+    "category": "factual",
+    "language": "en",
+    "question": "What type of weapon is the M4A1?",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "V5_02",
+    "category": "factual",
+    "language": "ar",
+    "question": "شو نوع سلاح M7؟",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "V5_03",
+    "category": "factual",
+    "language": "en",
+    "question": "Which ammo does the RM277 use?",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "V5_04",
+    "category": "factual",
+    "language": "ar",
+    "question": "ما هي خرائط Operations الموجودة في الأداة الرسمية؟",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "V5_05",
+    "category": "freshness",
+    "language": "en",
+    "question": "When is the officially announced Reorientation season scheduled to launch?",
+    "expected_behavior": "answer_from_official_announcement"
+  },
+  {
+    "id": "V5_06",
+    "category": "unknown",
+    "language": "en",
+    "question": "What unreleased operator will be added in 2028?",
+    "expected_behavior": "refuse_unverified_answer"
+  },
+  {
+    "id": "V5_07",
+    "category": "factual",
+    "language": "en",
+    "question": "What is N-Two Frost Launcher?",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "V5_08",
+    "category": "factual",
+    "language": "ar",
+    "question": "ما هي ذخيرة SVCH؟",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "V5_09",
+    "category": "historical",
+    "language": "en",
+    "question": "Who is Raptor and what was his Operations trait?",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "V5_10",
+    "category": "factual",
+    "language": "en",
+    "question": "Name some official Delta Force firearms.",
+    "expected_behavior": "answer_from_evidence"
+  },
+  {
+    "id": "mena_001",
+    "category": "factual",
+    "language": "ar",
+    "question": "من بطل MENA وتركيا في Delta Force عام 2025؟",
+    "expected_answer_contains": [
+      "I'M Special Gamer",
+      "Arena Championship",
+      "DFI 2025"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "mena_002",
+    "category": "factual",
+    "language": "ar",
+    "question": "شو أهم بطولات Delta Force اللي تخص MENA؟",
+    "expected_answer_contains": [
+      "Arena Championship",
+      "EMEA",
+      "RISE"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "mena_003",
+    "category": "factual",
+    "language": "en",
+    "question": "Who represented the MENA and Turkey pathway at DFI 2025?",
+    "expected_answer_contains": [
+      "I'M Special Gamer"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "mena_004",
+    "category": "unknown",
+    "language": "ar",
+    "question": "من فاز بتصفيات RISE EMEA Season 2؟",
+    "expected_answer_contains": [
+      "غير موثق",
+      "TBD"
+    ],
+    "expected_behavior": "refuse_unverified_answer"
+  },
+  {
+    "id": "mena_005",
+    "category": "freshness",
+    "language": "ar",
+    "question": "مين بطل RISE EMEA Season 2؟",
+    "expected_answer_contains": [
+      "لم تبدأ",
+      "لا يوجد بطل"
+    ],
+    "expected_behavior": "refuse_unverified_answer"
+  },
+  {
+    "id": "discord_001",
+    "category": "factual",
+    "language": "ar",
+    "question": "من فاز بسكرم مقاتلي الصحراء؟",
+    "expected_answer_contains": [
+      "Team ONI",
+      "Team RS",
+      "Team GT"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "discord_002",
+    "category": "factual",
+    "language": "ar",
+    "question": "من فاز بسكرم لعنة الفراعنة؟",
+    "expected_answer_contains": [
+      "Team RS",
+      "Team ONI",
+      "Team EX"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "discord_003",
+    "category": "unknown",
+    "language": "ar",
+    "question": "من بطل بطولة أبطال العرب؟",
+    "expected_answer_contains": [
+      "غير موثق",
+      "لا تظهر النتيجة النهائية"
+    ],
+    "expected_behavior": "refuse_unverified_answer"
+  },
+  {
+    "id": "discord_004",
+    "category": "factual",
+    "language": "ar",
+    "question": "ما هي تفاصيل بطولة ليلة الرعب؟",
+    "expected_answer_contains": [
+      "Warfare",
+      "4 لاعبين",
+      "12,000"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "discord_005",
+    "category": "unknown",
+    "language": "ar",
+    "question": "من بطل بطولة العام الأول MENA × TURKEY؟",
+    "expected_answer_contains": [
+      "غير موثق",
+      "لا توجد في هذه الدفعة صورة تؤكد البطل"
+    ],
+    "expected_behavior": "refuse_unverified_answer"
+  },
+  {
+    "id": "garena_discord_001",
+    "category": "factual",
+    "language": "ar",
+    "question": "من فاز ببطولة أبطال العرب 2026؟",
+    "expected_answer_contains": [
+      "ONI",
+      "RS",
+      "EX"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "garena_discord_002",
+    "category": "factual",
+    "language": "ar",
+    "question": "من كان MVP في بطولة Arab Heroes؟",
+    "expected_answer_contains": [
+      "GRIZZMAN"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "garena_discord_003",
+    "category": "factual",
+    "language": "ar",
+    "question": "من بطل بطولة MENA x TURKEY 2026؟",
+    "expected_answer_contains": [
+      "RS",
+      "ONI",
+      "R3X"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "garena_discord_004",
+    "category": "factual",
+    "language": "ar",
+    "question": "كم كانت جوائز بطولة العام الأول مينا ضد تركيا؟",
+    "expected_answer_contains": [
+      "50,000",
+      "30,000",
+      "20,000"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "garena_discord_005",
+    "category": "factual",
+    "language": "ar",
+    "question": "من فاز بسكرم لعنة الفراعنة؟",
+    "expected_answer_contains": [
+      "RS"
+    ],
+    "expected_behavior": "answer_with_sources"
+  },
+  {
+    "id": "garena_discord_006",
+    "category": "unknown",
+    "language": "ar",
+    "question": "من فاز ببطولة ليلة الرعب؟",
+    "expected_answer_contains": [
+      "غير موثق",
+      "لا توجد نتيجة"
+    ],
+    "expected_behavior": "refuse_unverified_answer"
+  },
+  {
+    "id": "weapon_v12_lmg_complete",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني جميع اسامي اسلحه بفئه الرشاش الخفيف",
+    "expected_answer_contains": [
+      "M249",
+      "PKM",
+      "M250",
+      "QJB201"
+    ],
+    "expected_behavior": "complete_catalog"
+  },
+  {
+    "id": "weapon_v12_shotguns",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني جميع أسلحة الشوزن",
+    "expected_answer_contains": [
+      "S12K",
+      "M1014",
+      "M870",
+      "725",
+      "FS-12"
+    ],
+    "expected_behavior": "complete_catalog"
+  },
+  {
+    "id": "weapon_v12_all",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني جميع الأسلحة في Delta Force",
+    "expected_answer_contains": [
+      "M4A1",
+      "PKM",
+      "M82",
+      "725",
+      "SVCH",
+      "RM277"
+    ],
+    "expected_behavior": "complete_catalog"
+  },
+  {
+    "id": "v13_current_season",
+    "category": "freshness",
+    "language": "ar",
+    "question": "شو الموسم الحالي وآخر تحديث؟",
+    "expected_answer_contains": [
+      "Meltdown",
+      "2026-08-27",
+      "Reorientation",
+      "2026-09-08"
+    ],
+    "expected_behavior": "separate_current_from_upcoming"
+  },
+  {
+    "id": "v13_all_operators",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني جميع الشخصيات الحالية",
+    "expected_answer_contains": [
+      "Vyron",
+      "D-Wolf",
+      "Branko",
+      "N-Two",
+      "Morse",
+      "17"
+    ],
+    "expected_behavior": "complete_catalog"
+  },
+  {
+    "id": "v13_rover_upcoming",
+    "category": "freshness",
+    "language": "ar",
+    "question": "مين الشخصية الجديدة الجاية؟",
+    "expected_answer_contains": [
+      "Rover",
+      "Rowan Walsh",
+      "2026-09-08"
+    ],
+    "expected_behavior": "upcoming_not_current"
+  },
+  {
+    "id": "v13_operations_maps",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني جميع خرائط Operations الحالية",
+    "expected_answer_contains": [
+      "Zero Dam",
+      "Layali Grove",
+      "Space City",
+      "Brakkesh",
+      "Tide Prison",
+      "AZ3"
+    ],
+    "expected_behavior": "complete_catalog"
+  },
+  {
+    "id": "v13_warfare_maps",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني جميع خرائط Warfare",
+    "expected_answer_contains": [
+      "Trench Lines",
+      "Coliseum",
+      "Akh Canal",
+      "Threshold",
+      "Monument"
+    ],
+    "expected_behavior": "complete_catalog_with_patch_note"
+  },
+  {
+    "id": "v13_modes",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني كل أطوار اللعبة",
+    "expected_answer_contains": [
+      "Warfare",
+      "Operations",
+      "Black Hawk Down",
+      "Attack and Defend",
+      "Hot Zone Arena"
+    ],
+    "expected_behavior": "status_aware_catalog"
+  },
+  {
+    "id": "v13_vehicles",
+    "category": "factual",
+    "language": "ar",
+    "question": "اعطيني جميع المركبات",
+    "expected_answer_contains": [
+      "M1A4",
+      "F-45A",
+      "CSV-35",
+      "GTQ-35",
+      "LAV-AA"
+    ],
+    "expected_behavior": "verified_catalog"
+  },
+  {
+    "id": "v13_everything",
+    "category": "overview",
+    "language": "ar",
+    "question": "شو عندك كلشي عن اللعبة؟",
+    "expected_answer_contains": [
+      "66",
+      "17",
+      "Meltdown",
+      "Reorientation"
+    ],
+    "expected_behavior": "master_overview"
+  },
+  {
+    "id": "v14_mobile_release",
+    "category": "factual",
+    "language": "ar",
+    "question": "متى لعبة دلتا فورس توفرت لأجهزة موبايل؟",
+    "expected_answer_contains": [
+      "21",
+      "أبريل",
+      "2025",
+      "Android",
+      "iOS"
+    ],
+    "expected_behavior": "direct_release_catalog"
+  },
+  {
+    "id": "v14_pc_release",
+    "category": "factual",
+    "language": "ar",
+    "question": "متى نزلت Delta Force على PC رسمي؟",
+    "expected_answer_contains": [
+      "5 ديسمبر 2024",
+      "21 أبريل 2025",
+      "Steam",
+      "Epic"
+    ],
+    "expected_behavior": "explain_open_beta_and_official_launch"
+  },
+  {
+    "id": "v14_console_release",
+    "category": "factual",
+    "language": "ar",
+    "question": "متى نزلت Delta Force على PS5 وXbox؟",
+    "expected_answer_contains": [
+      "19 أغسطس 2025",
+      "PS5",
+      "Xbox Series X|S"
+    ],
+    "expected_behavior": "direct_release_catalog"
+  },
+  {
+    "id": "v14_versions",
+    "category": "factual",
+    "language": "ar",
+    "question": "شو الفرق بين نسخة Garena والعالمية والصينية؟",
+    "expected_answer_contains": [
+      "Global",
+      "Garena",
+      "China",
+      "三角洲行动"
+    ],
+    "expected_behavior": "service_ecosystem_comparison"
+  },
+  {
+    "id": "v14_jordan",
+    "category": "factual",
+    "language": "ar",
+    "question": "أنا بالأردن، أي نسخة Delta Force أنزل؟",
+    "expected_answer_contains": [
+      "Jordan",
+      "Garena"
+    ],
+    "expected_behavior": "regional_version_guidance"
+  },
+  {
+    "id": "v14_download",
+    "category": "factual",
+    "language": "en",
+    "question": "Where can I download each Delta Force version?",
+    "expected_answer_contains": [
+      "Steam",
+      "Epic",
+      "Google Play",
+      "App Store",
+      "PlayStation",
+      "Xbox",
+      "WeGame"
+    ],
+    "expected_behavior": "download_channel_overview"
+  },
+  {
+    "id": "v15_dialect_season_jo",
+    "category": "factual",
+    "language": "ar",
+    "question": "اي سيزن اللعبه الان؟",
+    "expected_answer_contains": [
+      "S10",
+      "Meltdown"
+    ],
+    "expected_behavior": "dialect_semantic_direct"
+  },
+  {
+    "id": "v15_dialect_season_gulf",
+    "category": "factual",
+    "language": "ar",
+    "question": "وش السيزن الحين؟",
+    "expected_answer_contains": [
+      "S10",
+      "Meltdown"
+    ],
+    "expected_behavior": "dialect_semantic_direct"
+  },
+  {
+    "id": "v15_dialect_season_egypt",
+    "category": "factual",
+    "language": "ar",
+    "question": "احنا في سيزون كام دلوقتي؟",
+    "expected_answer_contains": [
+      "S10",
+      "Meltdown"
+    ],
+    "expected_behavior": "dialect_semantic_direct"
+  },
+  {
+    "id": "v15_dialect_season_en",
+    "category": "factual",
+    "language": "en",
+    "question": "what season are we on rn?",
+    "expected_answer_contains": [
+      "S10",
+      "Meltdown"
+    ],
+    "expected_behavior": "semantic_direct"
+  },
+  {
+    "id": "v15_dialect_mobile",
+    "category": "factual",
+    "language": "ar",
+    "question": "امتى نزلت اللعبه ع الجوال؟",
+    "expected_answer_contains": [
+      "21",
+      "2025",
+      "Android",
+      "iOS"
+    ],
+    "expected_behavior": "dialect_semantic_direct"
+  },
+  {
+    "id": "v15_dialect_operators",
+    "category": "factual",
+    "language": "ar",
+    "question": "مين كل الشخصيات الموجودة هسا؟",
+    "expected_answer_contains": [
+      "17",
+      "Vyron",
+      "Morse"
+    ],
+    "expected_behavior": "dialect_semantic_direct"
+  }
+]

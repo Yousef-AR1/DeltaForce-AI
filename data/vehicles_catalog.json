@@ -1,0 +1,101 @@
+{
+  "as_of": "2026-09-02",
+  "verified_or_current_patch_referenced": [
+    {
+      "name": "M1A4 Battle Tank",
+      "type": "Main Battle Tank",
+      "status": "current",
+      "source": "Garena homepage"
+    },
+    {
+      "name": "FSV Wheeled Tank Destroyer",
+      "type": "Tank Destroyer",
+      "status": "current",
+      "source": "Garena homepage"
+    },
+    {
+      "name": "AH-1035D Assault Helicopter",
+      "type": "Attack Helicopter",
+      "status": "current",
+      "source": "Garena homepage"
+    },
+    {
+      "name": "All-Terrain Vehicle",
+      "alias": "ATV",
+      "type": "Light Transport",
+      "status": "current",
+      "source": "Garena homepage"
+    },
+    {
+      "name": "LAV-G1 IFV",
+      "type": "Infantry Fighting Vehicle",
+      "status": "current",
+      "source": "Garena homepage"
+    },
+    {
+      "name": "LAV-AA",
+      "type": "Anti-Air Vehicle",
+      "status": "current",
+      "source": "Garena homepage"
+    },
+    {
+      "name": "Assault Vehicle",
+      "type": "Light/Assault Vehicle",
+      "status": "current",
+      "source": "Garena homepage"
+    },
+    {
+      "name": "GTQ-35 Light Tank",
+      "alias": "GTQ-35 LT",
+      "type": "Light Tank",
+      "status": "current_referenced",
+      "source": "Official Ahsarah / Victory Unite updates"
+    },
+    {
+      "name": "F-45A Fighter",
+      "type": "Fighter Aircraft",
+      "status": "current_referenced",
+      "source": "Official War Ablaze update"
+    },
+    {
+      "name": "CSV-35 Transport Helicopter",
+      "alias": "Osprey Helicopter",
+      "type": "Tiltrotor Transport Aircraft",
+      "status": "current",
+      "source": "Official Meltdown update"
+    },
+    {
+      "name": "Assault Boat",
+      "type": "Armed Boat",
+      "status": "current_referenced",
+      "source": "Official vehicle balance updates"
+    },
+    {
+      "name": "Jet Ski",
+      "type": "Light Watercraft",
+      "status": "current_referenced",
+      "source": "Official season content"
+    },
+    {
+      "name": "Recon / Scout Helicopter",
+      "type": "Recon Helicopter",
+      "status": "current_referenced",
+      "source": "Official Victory Unite / Warfare adjustments"
+    },
+    {
+      "name": "Jeep",
+      "type": "Light Transport",
+      "status": "current_referenced",
+      "source": "Official Victory Unite call-in list"
+    }
+  ],
+  "sources": [
+    "https://deltaforce.garena.com/",
+    "https://deltaforce.garena.com/en/news/announcement/M3DB35",
+    "https://deltaforce.garena.com/en/news/announcement/W9PGYU",
+    "https://deltaforce.garena.com/en/news/all/2MX7J4",
+    "https://deltaforce.garena.com/en/news/all/F2MA9T",
+    "https://deltaforce.garena.com/en/news/announcement/V6J38U"
+  ],
+  "note": "Garena homepage itself shows seven showcase vehicles; later official patch notes verify additional vehicles still referenced in game modes."
+}

@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-09-02",
+  "current_season": {
+    "number": 10,
+    "name": "Meltdown",
+    "status": "current",
+    "started": "2026-06-30",
+    "source_name": "Delta Force Official HQ / Garena Delta Force",
+    "source_urls": [
+      "https://www.playdeltaforce.com/events/hq/",
+      "https://deltaforce.garena.com/en/news/all/2MX7J4"
+    ]
+  },
+  "latest_live_update": {
+    "date": "2026-08-27",
+    "title": "End-of-Season Armament Voucher Giveaway / Reorientation Preview",
+    "status": "live",
+    "source_url": "https://deltaforce.garena.com/en/news/all/7K772J"
+  },
+  "upcoming_season": {
+    "name": "Reorientation",
+    "status": "upcoming",
+    "goes_live": "2026-09-08",
+    "description": "Delta Force 2nd Anniversary Season",
+    "source_url": "https://deltaforce.garena.com/en/news/all/7K772J"
+  },
+  "upcoming_operator": {
+    "codename": "Rover",
+    "real_name": "Rowan Walsh",
+    "class": "Support",
+    "status": "upcoming",
+    "release_date": "2026-09-08",
+    "companion": "Clover",
+    "verified_summary": "Rover heals from afar; Clover handles the chase.",
+    "source_url": "https://steamcommunity.com/app/2507950/allnews/"
+  },
+  "freshness_rule": "As of 2026-09-02, Meltdown is current. Reorientation and Rover must be described as upcoming until 2026-09-08. Do not present upcoming content as already live."
+}

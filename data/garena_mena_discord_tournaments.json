@@ -1,0 +1,510 @@
+[
+  {
+    "id": "night_terror_warfare_scrim_2025",
+    "name_ar": "البطولة المظلمة: ليلة الرعب",
+    "name_en": "Night Terror Scrim",
+    "dates": {
+      "announcement": "2025-10-01",
+      "event": "2025-10-02"
+    },
+    "mode": "Warfare",
+    "platform": "Not explicitly stated",
+    "region": "Garena Delta Force MENA community",
+    "status": "announced_completed_result_not_in_batch1",
+    "format": "Team registration with 4 core players and up to 3 reserve players (7 total registered).",
+    "prizes": {
+      "first_dt": 12000,
+      "second_dt": 8000,
+      "third_dt": 4000
+    },
+    "results": null,
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch1/night_terror_warfare_scrim_2025__df5fcbe6-d19d-5c5c-aff3-77ebb3339aca.png"
+    ],
+    "organizer_context": "Posted in Garena Delta Force MENA Discord tournament room"
+  },
+  {
+    "id": "desert_fighters_scrim_2025",
+    "name_ar": "سكرم مقاتلي الصحراء",
+    "name_en": "Desert Fighters Scrim",
+    "dates": {
+      "final_announcement": "2025-12-05",
+      "results_post": "2025-12-06"
+    },
+    "mode": "Not explicitly stated in screenshot",
+    "platform": "Not explicitly stated",
+    "region": "Garena Delta Force MENA community",
+    "status": "completed",
+    "format": "Scrim/tournament format; final match shown as RS vs ONI.",
+    "results": {
+      "first": "Team ONI",
+      "second": "Team RS",
+      "third": "Team GT"
+    },
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch1/desert_fighters_scrim_2025__b4cc36e3-8226-5c32-9842-518acaf7ab2e.png",
+      "data/evidence/garena_mena_discord/batch1/desert_fighters_scrim_2025__abaee1d5-04be-5794-b8c3-075b9ce4320f.png"
+    ],
+    "organizer_context": "Posted in Garena Delta Force MENA Discord tournament room"
+  },
+  {
+    "id": "pharaoh_curse_scrim_2025",
+    "name_ar": "سكرم لعنة الفراعنة",
+    "name_en": "Pharaoh's Curse Scrim",
+    "dates": {
+      "results_post": "2025-12-12"
+    },
+    "mode": "Not explicitly stated in screenshot",
+    "platform": "Not explicitly stated",
+    "region": "Garena Delta Force MENA community",
+    "status": "completed",
+    "format": "Scrim/tournament with ranking table of 12 teams shown in the result image.",
+    "results": {
+      "first": "Team RS",
+      "second": "Team ONI",
+      "third": "Team EX"
+    },
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch1/pharaoh_curse_scrim_2025__b7583322-b7f3-5bfc-9ae1-b2ec9fb7f4c4.png"
+    ],
+    "organizer_context": "Posted in Garena Delta Force MENA Discord tournament room"
+  },
+  {
+    "id": "arab_heroes_2026",
+    "name_ar": "بطولة أبطال العرب",
+    "name_en": "Arab Heroes Tournament",
+    "dates": {
+      "teaser": "2026-01-17",
+      "registration_open": "2026-01-17",
+      "registration_from": "2026-01-16",
+      "registration_to": "2026-01-26",
+      "round1_from": "2026-01-29",
+      "round1_to": "2026-01-31",
+      "final_from": "2026-02-13",
+      "final_to": "2026-02-14",
+      "registration_closed_group_draw": "2026-01-28",
+      "week1_summary": "2026-02-02",
+      "week2_summary": "2026-02-08",
+      "final_countdown": "2026-02-14",
+      "final_results": "2026-02-15",
+      "champion_confirmation": "2026-02-16"
+    },
+    "mode": "Warfare Mobile",
+    "platform": "Mobile",
+    "region": "Arab / Garena Delta Force MENA community",
+    "status": "completed",
+    "format": "Weekly progression tournament. Round one participant list shown; six teams qualified from the first week to the final according to the screenshots.",
+    "prizes": {
+      "announced_total_tickets": 70000,
+      "final_team_prizes_dt": {
+        "1": 24000,
+        "2": 14000,
+        "3": 12000,
+        "4": 10000,
+        "5": 8000
+      }
+    },
+    "results": {
+      "champion": "ONI",
+      "runner_up": "RS",
+      "third": "EX",
+      "fourth": "GT",
+      "fifth": "CIA",
+      "mvp": "ONI - GRIZZMAN"
+    },
+    "qualified_week1_finalists": [
+      "ONI",
+      "GT",
+      "CIA",
+      "EX",
+      "4U",
+      "CR7"
+    ],
+    "round1_teams": [
+      "ONI",
+      "KOD",
+      "EX",
+      "STV",
+      "CIA",
+      "WAR",
+      "4U",
+      "INS",
+      "GT",
+      "CR7",
+      "CA",
+      "SIR"
+    ],
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch1/arab_heroes_2026__f61fb332-08f3-50e8-860c-fe87b5449a1a.png",
+      "data/evidence/garena_mena_discord/batch1/arab_heroes_2026__45cb3a8b-1831-5768-aa5b-1c91254c3b87.png",
+      "data/evidence/garena_mena_discord/batch1/arab_heroes_2026__50aae77c-2868-572e-adcb-5f1e00bde861.png",
+      "data/evidence/garena_mena_discord/batch1/arab_heroes_2026__3c9a0698-06a9-5ee2-9947-11aa926bf997.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_teaser.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_faq_1.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_faq_2.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_24_teams_group_draw.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_content_creators.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_group_ab_post.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week1_standings.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week1_qualified.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_group2_graphic.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week2_standings.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_week2_qualified.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_final_countdown.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_final_results_post.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_final_standings.png",
+      "data/evidence/garena_mena_discord/batch2/arab_heroes_champion_mvp.png"
+    ],
+    "organizer_context": "Posted in Garena Delta Force MENA Discord tournament room",
+    "registered_teams": 24,
+    "team_rules": {
+      "players_per_team": 4,
+      "clan_membership_required": false,
+      "multiple_teams_per_clan_allowed": true,
+      "required_identity_fields": [
+        "unique team name",
+        "team logo",
+        "team tag",
+        "4 players",
+        "team captain"
+      ],
+      "same_clan_multiple_team_rule": "Each team must use a distinct name, logo/tag identity and team captain."
+    },
+    "initial_groups": {
+      "group_1": [
+        "ONI",
+        "GT",
+        "CIA",
+        "CR7",
+        "EX",
+        "INS",
+        "SIR",
+        "CA",
+        "STV",
+        "WAR",
+        "KOD",
+        "4U"
+      ],
+      "group_2_as_initial_graphic": [
+        "RS",
+        "GG",
+        "R3X",
+        "LND",
+        "1C",
+        "QS",
+        "RIP",
+        "RX",
+        "S9",
+        "SS",
+        "ST",
+        "KID"
+      ]
+    },
+    "week1_standings": [
+      {
+        "rank": 1,
+        "team": "ONI",
+        "points": 431492
+      },
+      {
+        "rank": 2,
+        "team": "GT",
+        "points": 423738
+      },
+      {
+        "rank": 3,
+        "team": "CIA",
+        "points": 372532
+      },
+      {
+        "rank": 4,
+        "team": "EX",
+        "points": 343015
+      },
+      {
+        "rank": 5,
+        "team": "4U",
+        "points": 340745
+      },
+      {
+        "rank": 6,
+        "team": "CR7",
+        "points": 324621
+      },
+      {
+        "rank": 7,
+        "team": "WAR",
+        "points": 307570
+      },
+      {
+        "rank": 8,
+        "team": "CA",
+        "points": 306273
+      },
+      {
+        "rank": 9,
+        "team": "SIR",
+        "points": 299325
+      },
+      {
+        "rank": 10,
+        "team": "KOD",
+        "points": 278772
+      },
+      {
+        "rank": 11,
+        "team": "STV",
+        "points": 268909
+      },
+      {
+        "rank": 12,
+        "team": "INS",
+        "points": 249351
+      }
+    ],
+    "week2_standings": [
+      {
+        "rank": 1,
+        "team": "GG",
+        "points": 338289
+      },
+      {
+        "rank": 2,
+        "team": "RS",
+        "points": 334205
+      },
+      {
+        "rank": 3,
+        "team": "R3X",
+        "points": 307394
+      },
+      {
+        "rank": 4,
+        "team": "QS",
+        "points": 289846
+      },
+      {
+        "rank": 5,
+        "team": "RX",
+        "points": 282005
+      },
+      {
+        "rank": 6,
+        "team": "LND",
+        "points": 267497
+      },
+      {
+        "rank": 7,
+        "team": "SS",
+        "points": 258722
+      },
+      {
+        "rank": 8,
+        "team": "KID",
+        "points": 228670
+      },
+      {
+        "rank": 9,
+        "team": "ST",
+        "points": 208764
+      },
+      {
+        "rank": 10,
+        "team": "S9",
+        "points": 180897
+      },
+      {
+        "rank": 11,
+        "team": "RIP",
+        "points": 168602
+      },
+      {
+        "rank": 12,
+        "team": "SU",
+        "points": 158971
+      }
+    ],
+    "qualified_week2_finalists": [
+      "GG",
+      "RS",
+      "R3X",
+      "QS",
+      "RX",
+      "LND"
+    ],
+    "final_standings": [
+      {
+        "rank": 1,
+        "team": "ONI",
+        "points": 282081,
+        "prize_dt": 24000
+      },
+      {
+        "rank": 2,
+        "team": "RS",
+        "points": 260434,
+        "prize_dt": 14000
+      },
+      {
+        "rank": 3,
+        "team": "EX",
+        "points": 258922,
+        "prize_dt": 12000
+      },
+      {
+        "rank": 4,
+        "team": "GT",
+        "points": 237087,
+        "prize_dt": 10000
+      },
+      {
+        "rank": 5,
+        "team": "CIA",
+        "points": 227405,
+        "prize_dt": 8000
+      },
+      {
+        "rank": 6,
+        "team": "4U",
+        "points": 215360
+      },
+      {
+        "rank": 7,
+        "team": "GG",
+        "points": 193588
+      },
+      {
+        "rank": 8,
+        "team": "QS",
+        "points": 191437
+      },
+      {
+        "rank": 9,
+        "team": "CR7",
+        "points": 191261
+      },
+      {
+        "rank": 10,
+        "team": "R3X",
+        "points": 190925
+      },
+      {
+        "rank": 11,
+        "team": "RX",
+        "points": null,
+        "note": "Score is not transcribed because the supplied image is not clear enough to guarantee the exact value."
+      },
+      {
+        "rank": 12,
+        "team": "LND",
+        "points": 166821
+      }
+    ]
+  },
+  {
+    "id": "dfi_1st_anniversary_mena_turkey_2026",
+    "name_ar": "بطولة العام الأول — MENA × TURKEY",
+    "name_en": "First Anniversary Tournament - MENA vs Turkey",
+    "dates": {
+      "teaser": "2026-04-18",
+      "registration_open": "2026-04-24",
+      "registration_from": "2026-04-22",
+      "registration_to": "2026-04-30",
+      "group_stage_from": "2026-05-10",
+      "group_stage_to": "2026-05-14",
+      "quarterfinal": "2026-05-15",
+      "semifinal": "2026-05-16",
+      "grand_final": "2026-05-17",
+      "grand_final_match_post": "2026-05-17",
+      "champion_results_post": "2026-05-18"
+    },
+    "mode": "Attack and Defend / Warfare-style regional competition",
+    "platform": "Not explicitly stated in main tournament screenshots",
+    "region": "MENA + Turkey",
+    "status": "completed",
+    "format": "16 teams. Group stage to quarterfinal, semifinal, and grand final. Daily matches began at 22:00 Iraq time according to the screenshots.",
+    "prizes": {
+      "total_tickets": 100000,
+      "first_dt": 50000,
+      "second_dt": 30000,
+      "third_dt": 20000
+    },
+    "results": {
+      "champion": "RS",
+      "runner_up": "ONI",
+      "third": "R3X"
+    },
+    "notable_matches": {
+      "day3": [
+        "RX vs ONI",
+        "N1 vs KID"
+      ],
+      "quarterfinal_set_1": [
+        "RS vs STF",
+        "R3X vs TTG"
+      ],
+      "quarterfinal_set_2": [
+        "N1 vs BL",
+        "ONI vs WAR"
+      ],
+      "semifinal": [
+        "RS vs N1",
+        "ONI vs R3X"
+      ]
+    },
+    "streamers": [
+      "BOOGY",
+      "78_ysys",
+      "qssssssss",
+      "arsenn_tvenn_tv",
+      "Bqer",
+      "Sir Allawi",
+      "QS",
+      "3saly"
+    ],
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__6f1705c6-3ff7-55f5-8c48-abbaa970d70a.png",
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__26b47e17-0d97-5c96-9a77-91fa860eb64c.png",
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__81be0285-468d-530c-ae31-8e80acfad5c0.png",
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__4baccba8-02b4-548a-921c-cea6044d04cf.png",
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__37518e9f-2ee3-59a6-9a21-5b36cf500d74.png",
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__6295b1f9-0054-59fa-958b-201c6f9c66d1.png",
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__e7bd9eba-6708-5ee3-9c83-bf3eed78e98a.png",
+      "data/evidence/garena_mena_discord/batch1/dfi_1st_anniversary_mena_turkey_2026__dd780033-58ed-509d-acb8-2203603068e0.png",
+      "data/evidence/garena_mena_discord/batch2/mena_turkey_final_announcement.png",
+      "data/evidence/garena_mena_discord/batch2/mena_turkey_champion_results.png",
+      "data/evidence/garena_mena_discord/batch2/mena_turkey_rs_champion_graphic.png"
+    ],
+    "organizer_context": "Posted in Garena Delta Force MENA Discord tournament room",
+    "grand_final_match": "ONI vs RS"
+  },
+  {
+    "id": "dfi_warfare_community_qualifier_2026_emea",
+    "name_ar": "بطولة دلتا فورس الدعوية 2026: وضع الحرب (الكمبيوتر) - التصفيات المجتمعية",
+    "name_en": "Delta Force Invitational Warfare 2026 Community Qualifier",
+    "dates": {
+      "announcement": "2026-04-28"
+    },
+    "mode": "Warfare (PC)",
+    "platform": "PC",
+    "region": "Europe, Middle East, Africa",
+    "status": "announced_completed_result_not_in_batch1",
+    "format": "Open/community qualifier. Registration link shown in the screenshot. Teams required to register a full roster of 20 members according to the announcement image text.",
+    "results": null,
+    "source_paths": [
+      "data/evidence/garena_mena_discord/batch1/dfi_warfare_community_qualifier_2026_emea__78e4a005-e5ba-5868-a2d3-91b59e54ebad.png",
+      "data/evidence/garena_mena_discord/batch2/dfiw_team_iq_support.png"
+    ],
+    "organizer_context": "Posted in Garena Delta Force MENA Discord tournament room",
+    "registration_deadline": "2026-05-15",
+    "qualifier_dates": [
+      "2026-05-22",
+      "2026-05-23",
+      "2026-05-24"
+    ],
+    "roster_size": 20,
+    "community_support_posts": [
+      "Team IQ support post on 2026-05-18"
+    ]
+  }
+]

@@ -1,0 +1,439 @@
+{
+  "as_of": "2026-09-02",
+  "game_identity": {
+    "current_name": "Delta Force",
+    "former_name": "Delta Force: Hawk Ops",
+    "rename_date": "2024-08-20",
+    "developer": "Team Jade / TiMi Studio Group",
+    "business_model": "Free-to-play",
+    "rename_source": "https://steamcommunity.com/app/2507950/eventcomments/6015206955931891541/"
+  },
+  "major_release_timeline": [
+    {
+      "date": "2024-09-26",
+      "event": "Mainland China official launch",
+      "platforms": [
+        "PC",
+        "Android",
+        "iOS"
+      ],
+      "service": "China domestic version",
+      "name": "三角洲行动 / Delta Force",
+      "status": "released",
+      "sources": [
+        "https://www.wegame.com.cn/act/release/df20240923/",
+        "https://www.taptap.cn/app/330259"
+      ]
+    },
+    {
+      "date": "2024-12-05",
+      "event": "International PC Global Open Beta",
+      "platforms": [
+        "PC"
+      ],
+      "service": "Global / international",
+      "status": "released_no_wipe_open_beta",
+      "download_channels": [
+        "Official Delta Force Launcher",
+        "Steam",
+        "Epic Games Store"
+      ],
+      "source": "https://www.playdeltaforce.com/en/detail/news-announcement-pc-global-open-beta-on-dec-5.html"
+    },
+    {
+      "date": "2024-12-05",
+      "event": "Garena Delta Force official PC launch",
+      "platforms": [
+        "PC"
+      ],
+      "service": "Garena regional version",
+      "status": "released",
+      "download_channels": [
+        "Garena Delta Force official website / Garena PC client"
+      ],
+      "source": "https://deltaforce.garena.com/en/news/all/3UWGVS"
+    },
+    {
+      "date": "2025-04-21",
+      "event": "Global Official Launch / mobile global launch",
+      "platforms": [
+        "PC service official-launch milestone",
+        "Android",
+        "iOS"
+      ],
+      "service": "Global / international",
+      "status": "released",
+      "download_channels": [
+        "Google Play",
+        "Apple App Store",
+        "Official global PC channels"
+      ],
+      "sources": [
+        "https://www.playdeltaforce.com/ar/detail/news-i-announced-the-global-launch-of-the-game-delta-force-on-mobile-devices-on-april-21-.html",
+        "https://steamcommunity.com/app/2507950/eventcomments/595146751510329805/"
+      ],
+      "note": "PC had already been playable in the no-wipe Global Open Beta since 2024-12-05. April 21, 2025 is the later Global Official Launch milestone and mobile launch."
+    },
+    {
+      "date": "2025-04-21",
+      "event": "Garena Delta Force Mobile launch in MENA official Arabic announcement",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "service": "Garena regional version - MENA",
+      "status": "released",
+      "download_channels": [
+        "Google Play",
+        "Apple App Store"
+      ],
+      "source": "https://deltaforce.garena.com/ar/news/all/X9D53N",
+      "note": "Garena's Arabic MENA announcement states April 21. A Garena English regional announcement states April 22, reflecting a regional/date presentation difference. For MENA questions, use the Arabic official MENA date: 2025-04-21."
+    },
+    {
+      "date": "2025-04-22",
+      "event": "Garena Mobile launch date shown on Garena English regional page",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "service": "Garena regional version",
+      "status": "released",
+      "source": "https://deltaforce.garena.com/en/news/announcement/5TK7N7",
+      "note": "Regional official page/date difference; do not use this to overwrite the MENA Arabic April 21 date."
+    },
+    {
+      "date": "2025-08-19",
+      "event": "Console launch",
+      "platforms": [
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "service": "Global / console storefront version",
+      "status": "released",
+      "download_channels": [
+        "PlayStation Store",
+        "Microsoft Store / Xbox Store"
+      ],
+      "sources": [
+        "https://store.playstation.com/en-us/product/UP5104-PPSA28881_00-0555800169353087",
+        "https://www.xbox.com/ar-ae/games/store/delta-force/9nrmzxgkp4nm",
+        "https://news.xbox.com/en-us/2025/06/30/free-to-play-delta-force-coming-to-xbox-august-19/"
+      ],
+      "unsupported_old_generation": [
+        "PlayStation 4",
+        "Xbox One"
+      ]
+    }
+  ],
+  "services": {
+    "global": {
+      "display_name": "Global / International Delta Force",
+      "target_region": "International/global service. Exact storefront availability can vary by country. Do not invent a complete country list when an official exhaustive list is not published.",
+      "platforms": [
+        "PC",
+        "Android",
+        "iOS",
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "pc_download": [
+        {
+          "channel": "Official Delta Force Launcher",
+          "url": "https://www.playdeltaforce.com/"
+        },
+        {
+          "channel": "Steam",
+          "url": "https://store.steampowered.com/app/2507950/Delta_Force/"
+        },
+        {
+          "channel": "Epic Games Store",
+          "url": "https://store.epicgames.com/"
+        }
+      ],
+      "mobile_download": [
+        {
+          "channel": "Google Play",
+          "note": "Search for Delta Force in the supported regional Google Play store."
+        },
+        {
+          "channel": "Apple App Store",
+          "note": "Search for Delta Force in the supported regional App Store."
+        }
+      ],
+      "console_download": [
+        {
+          "channel": "PlayStation Store",
+          "platform": "PS5"
+        },
+        {
+          "channel": "Microsoft/Xbox Store",
+          "platform": "Xbox Series X|S"
+        }
+      ],
+      "cross_progression": {
+        "status": "supported_in_global_ecosystem",
+        "scope": "Console, PC and mobile share progression when linked to the appropriate global account.",
+        "source": "https://news.xbox.com/en-us/2025/07/16/the-delta-force-technical-test-is-live-today-for-xbox-insiders/"
+      },
+      "publisher_storefront_note": "Console storefronts identify PROXIMA BETA PTE. LIMITED / TiMi ecosystem entities depending on store. Team Jade is the game development team."
+    },
+    "garena": {
+      "display_name": "Garena Delta Force",
+      "official_publishing_regions": [
+        "Southeast Asia",
+        "Taiwan",
+        "Central America",
+        "South America",
+        "Brazil",
+        "Middle East",
+        "North Africa"
+      ],
+      "publishing_source": "https://deltaforce.garena.com/en/news/announcement/TZB3DE",
+      "platforms": [
+        "PC",
+        "Android",
+        "iOS"
+      ],
+      "not_garena_platforms": [
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "pc_download": [
+        {
+          "channel": "Garena Delta Force official website / client",
+          "url": "https://deltaforce.garena.com/"
+        }
+      ],
+      "mobile_download": [
+        {
+          "channel": "Google Play",
+          "note": "Use the Garena Delta Force regional store listing/link."
+        },
+        {
+          "channel": "Apple App Store",
+          "note": "Use the Garena Delta Force regional store listing/link."
+        }
+      ],
+      "cross_progression": {
+        "status": "supported_between_garena_pc_and_mobile",
+        "source": "https://deltaforce.garena.com/en/news/all/2PYFQX",
+        "note": "Garena officially described PC/mobile progress sync inside the Garena version."
+      },
+      "exclusive_features": [
+        "Regional Garena events",
+        "Garena community events/rewards",
+        "Regional esports and tournaments"
+      ],
+      "explicit_country_examples": {
+        "mena_mobile_cbt_official_list": [
+          "Turkey",
+          "Saudi Arabia",
+          "Algeria",
+          "Morocco",
+          "Tunisia",
+          "Egypt",
+          "Iraq",
+          "Oman",
+          "Kuwait",
+          "Libya",
+          "Jordan",
+          "United Arab Emirates",
+          "Bahrain",
+          "Qatar",
+          "Lebanon"
+        ],
+        "mena_source": "https://deltaforce.garena.com/ar/news/all/EWB7BJ",
+        "sea_official_test_list": [
+          "Thailand",
+          "Indonesia",
+          "Vietnam",
+          "Singapore",
+          "Malaysia",
+          "Philippines"
+        ],
+        "sea_source": "https://deltaforce.garena.com/en/news/all/VDVPZ8",
+        "latam_mobile_cbt_examples": [
+          "Brazil",
+          "Mexico",
+          "Colombia"
+        ],
+        "latam_source": "https://deltaforce.garena.com/en/news/all/4DT4VG",
+        "warning": "These named country lists come from official Garena tests/eligibility pages. Garena's publishing announcement defines the broader launch regions. Do not claim the test lists are an exhaustive launch-country list for all Garena regions."
+      },
+      "steam_to_garena_transfer_history": {
+        "status": "historical_limited_service",
+        "transfer_window": "2025-04-04 to 2025-06-30 (FAQ window)",
+        "requirements_note": "Transfer had account/level/region eligibility rules and should not be presented as a permanent current feature.",
+        "faq_source": "https://deltaforce.garena.com/en/news/all/2PYFQX",
+        "policy_source": "https://deltaforce.garena.com/en/news/all/RWD8J3"
+      }
+    },
+    "china": {
+      "display_name": "Mainland China domestic version / 三角洲行动",
+      "target_region": "Mainland China",
+      "platforms": [
+        "PC",
+        "Android",
+        "iOS"
+      ],
+      "launch_date": "2024-09-26",
+      "publisher": "Tencent",
+      "pc_download": [
+        {
+          "channel": "WeGame",
+          "url": "https://www.wegame.com.cn/"
+        }
+      ],
+      "mobile_download": [
+        {
+          "channel": "Chinese mobile app distribution / official listings",
+          "example": "TapTap official listing supports Android, iOS and PC",
+          "url": "https://www.taptap.cn/app/330259"
+        }
+      ],
+      "sources": [
+        "https://www.wegame.com.cn/act/release/df20240923/",
+        "https://www.taptap.cn/app/330259"
+      ],
+      "ecosystem_note": "China is a domestic service and content/release timing can differ from international/Garena services. Do not assume account or progression interoperability with Global or Garena."
+    }
+  },
+  "account_ecosystem_rules": [
+    {
+      "rule": "Garena PC + Garena Mobile",
+      "result": "Cross-progression supported inside Garena.",
+      "source": "https://deltaforce.garena.com/en/news/all/2PYFQX"
+    },
+    {
+      "rule": "Global PC + Global Mobile + Global Console",
+      "result": "Shared progression is supported when using the appropriate linked global account.",
+      "source": "https://news.xbox.com/en-us/2025/07/16/the-delta-force-technical-test-is-live-today-for-xbox-insiders/"
+    },
+    {
+      "rule": "Global/Steam ↔ Garena",
+      "result": "Do not describe these as automatically interchangeable. Garena ran a specific historical Steam-to-Garena transfer service with eligibility rules and a limited window.",
+      "source": "https://deltaforce.garena.com/en/news/all/2PYFQX"
+    },
+    {
+      "rule": "China ↔ Global/Garena",
+      "result": "Treat as separate domestic/international service ecosystems unless an official migration service is announced."
+    }
+  ],
+  "country_aliases": {
+    "jordan": [
+      "jordan",
+      "الأردن",
+      "الاردن"
+    ],
+    "saudi_arabia": [
+      "saudi",
+      "saudi arabia",
+      "السعودية",
+      "السعوديه"
+    ],
+    "uae": [
+      "uae",
+      "united arab emirates",
+      "الإمارات",
+      "الامارات"
+    ],
+    "egypt": [
+      "egypt",
+      "مصر"
+    ],
+    "iraq": [
+      "iraq",
+      "العراق"
+    ],
+    "kuwait": [
+      "kuwait",
+      "الكويت"
+    ],
+    "qatar": [
+      "qatar",
+      "قطر"
+    ],
+    "bahrain": [
+      "bahrain",
+      "البحرين"
+    ],
+    "oman": [
+      "oman",
+      "عمان"
+    ],
+    "lebanon": [
+      "lebanon",
+      "لبنان"
+    ],
+    "morocco": [
+      "morocco",
+      "المغرب"
+    ],
+    "algeria": [
+      "algeria",
+      "الجزائر"
+    ],
+    "tunisia": [
+      "tunisia",
+      "تونس"
+    ],
+    "libya": [
+      "libya",
+      "ليبيا"
+    ],
+    "turkey": [
+      "turkey",
+      "turkiye",
+      "تركيا"
+    ],
+    "indonesia": [
+      "indonesia",
+      "إندونيسيا",
+      "اندونيسيا"
+    ],
+    "thailand": [
+      "thailand",
+      "تايلاند"
+    ],
+    "vietnam": [
+      "vietnam",
+      "فيتنام"
+    ],
+    "singapore": [
+      "singapore",
+      "سنغافورة",
+      "سنغافوره"
+    ],
+    "malaysia": [
+      "malaysia",
+      "ماليزيا"
+    ],
+    "philippines": [
+      "philippines",
+      "الفلبين"
+    ],
+    "taiwan": [
+      "taiwan",
+      "تايوان"
+    ],
+    "brazil": [
+      "brazil",
+      "البرازيل"
+    ],
+    "mexico": [
+      "mexico",
+      "المكسيك"
+    ],
+    "colombia": [
+      "colombia",
+      "كولومبيا"
+    ],
+    "china": [
+      "china",
+      "mainland china",
+      "الصين",
+      "الصين القارية"
+    ]
+  }
+}

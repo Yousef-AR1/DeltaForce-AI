@@ -1,0 +1,329 @@
+{
+  "verified_at": "2026-09-02",
+  "source_name": "Delta Force Official HQ Tool Station",
+  "source_url": "https://www.playdeltaforce.com/events/hq/",
+  "source_type": "official",
+  "total_weapons": 66,
+  "categories": [
+    {
+      "id": "rifle",
+      "name_en": "Rifle",
+      "name_ar": "البنادق",
+      "weapons": [
+        {
+          "name": "QBZ95-1",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "K416",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "PTR-32",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "M4A1",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "AUG",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "AK-12",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "M16A4",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "AKM",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "CAR-15",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "AKS-74",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "AS Val",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "CI-19",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "K437",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "KC-17",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "MK47",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "MCX LT",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "SR-3M Compact",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "SG552",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "AR-57",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "RM277",
+          "source_subtype": "Assault Rifle"
+        },
+        {
+          "name": "G3",
+          "source_subtype": "Battle Rifle"
+        },
+        {
+          "name": "ASh-12",
+          "source_subtype": "Battle Rifle"
+        },
+        {
+          "name": "M7",
+          "source_subtype": "Battle Rifle"
+        },
+        {
+          "name": "SCAR-H",
+          "source_subtype": "Battle Rifle"
+        }
+      ]
+    },
+    {
+      "id": "smg",
+      "name_en": "SMG / Submachine Gun",
+      "name_ar": "الرشاشات القصيرة",
+      "weapons": [
+        {
+          "name": "Bizon",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "Vector",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "Vityaz",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "MP5",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "UZI",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "SMG-45",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "P90",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "MP7",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "QCQ171",
+          "source_subtype": "Submachine Gun"
+        },
+        {
+          "name": "MK4",
+          "source_subtype": "Submachine Gun"
+        }
+      ]
+    },
+    {
+      "id": "sniper",
+      "name_en": "SR / Sniper Rifle",
+      "name_ar": "بنادق القنص",
+      "weapons": [
+        {
+          "name": "M700",
+          "source_subtype": "Sniper Rifle"
+        },
+        {
+          "name": "SV-98",
+          "source_subtype": "Sniper Rifle"
+        },
+        {
+          "name": "AWM",
+          "source_subtype": "Sniper Rifle"
+        },
+        {
+          "name": "R93",
+          "source_subtype": "Sniper Rifle"
+        },
+        {
+          "name": "M82",
+          "source_subtype": "Sniper Rifle"
+        }
+      ]
+    },
+    {
+      "id": "lmg",
+      "name_en": "LMG / Light & General Machine Gun",
+      "name_ar": "الرشاشات الخفيفة والعامة",
+      "weapons": [
+        {
+          "name": "M249",
+          "source_subtype": "Light/General Machine Gun"
+        },
+        {
+          "name": "PKM",
+          "source_subtype": "Light/General Machine Gun"
+        },
+        {
+          "name": "M250",
+          "source_subtype": "Light/General Machine Gun"
+        },
+        {
+          "name": "QJB201",
+          "source_subtype": "Light/General Machine Gun"
+        }
+      ]
+    },
+    {
+      "id": "marksman",
+      "name_en": "MR / Marksman Rifle",
+      "name_ar": "بنادق الرامي المميز",
+      "weapons": [
+        {
+          "name": "VSS",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "SVD",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "SR-25",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "SKS",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "PSG-1",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "M14",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "SR9",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "Lever-action Rifle",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "Mini-14",
+          "source_subtype": "Marksman Rifle"
+        },
+        {
+          "name": "SVCH",
+          "source_subtype": "Marksman Rifle"
+        }
+      ]
+    },
+    {
+      "id": "pistol",
+      "name_en": "Pistol",
+      "name_ar": "المسدسات",
+      "weapons": [
+        {
+          "name": "G18",
+          "source_subtype": "Pistol"
+        },
+        {
+          "name": "QSZ-92G",
+          "source_subtype": "Pistol"
+        },
+        {
+          "name": ".357 Revolver",
+          "source_subtype": "Pistol"
+        },
+        {
+          "name": "G17",
+          "source_subtype": "Pistol"
+        },
+        {
+          "name": "93R",
+          "source_subtype": "Pistol"
+        },
+        {
+          "name": "Desert Eagle",
+          "source_subtype": "Pistol"
+        },
+        {
+          "name": "M1911",
+          "source_subtype": "Pistol"
+        }
+      ]
+    },
+    {
+      "id": "shotgun",
+      "name_en": "Shotgun",
+      "name_ar": "بنادق الصيد / الشوزن",
+      "weapons": [
+        {
+          "name": "S12K",
+          "source_subtype": "Shotgun"
+        },
+        {
+          "name": "M1014",
+          "source_subtype": "Shotgun"
+        },
+        {
+          "name": "M870",
+          "source_subtype": "Shotgun"
+        },
+        {
+          "name": "725 Double-Barrel",
+          "source_subtype": "Shotgun"
+        },
+        {
+          "name": "FS-12",
+          "source_subtype": "Shotgun"
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "name_en": "Special",
+      "name_ar": "الأسلحة الخاصة",
+      "weapons": [
+        {
+          "name": "Compound Bow",
+          "source_subtype": "Special"
+        }
+      ]
+    }
+  ]
+}

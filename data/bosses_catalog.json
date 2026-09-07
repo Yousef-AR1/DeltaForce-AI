@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-09-02",
+  "verified_bosses_and_warlords": [
+    {
+      "name": "Saeed",
+      "status": "verified",
+      "context": "Operations boss / Fiery Owl content; rotations vary by event/map"
+    },
+    {
+      "name": "Reis",
+      "status": "verified",
+      "context": "Operations boss; rotation/location varies"
+    },
+    {
+      "name": "Raven",
+      "status": "verified",
+      "context": "Tide Prison / special operations and rotations"
+    },
+    {
+      "name": "Warden Ghroth",
+      "status": "verified",
+      "context": "Tide Prison Warden"
+    },
+    {
+      "name": "Hudson",
+      "full_name": "Efficiency Director - Hudson",
+      "status": "verified",
+      "context": "Space City"
+    },
+    {
+      "name": "Neural Device Agent-H1000",
+      "status": "verified",
+      "context": "AZ3 Nuclear Power Plant"
+    }
+  ],
+  "sources": [
+    "https://deltaforce.garena.com/en/news/all/MW4ZYF",
+    "https://deltaforce.garena.com/en/news/all/2MX7J4",
+    "https://deltaforce.garena.com/en/news/announcement/W9PGYU",
+    "https://deltaforce.garena.com/en/news/announcement/V6J38U",
+    "https://deltaforce.garena.com/en/news/announcement/HMSRNF",
+    "https://deltaforce.garena.com/en/news/all/JQTVNF"
+  ],
+  "rotation_rule": "Boss map presence can rotate by event. Separate permanent identity from temporary event location."
+}

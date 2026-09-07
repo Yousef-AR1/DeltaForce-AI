@@ -1,0 +1,72 @@
+{
+  "as_of": "2026-09-02",
+  "operations": {
+    "official_hq_count": 6,
+    "maps": [
+      {
+        "name": "Zero Dam",
+        "status": "current"
+      },
+      {
+        "name": "Layali Grove",
+        "status": "current"
+      },
+      {
+        "name": "Space City",
+        "status": "current"
+      },
+      {
+        "name": "Brakkesh",
+        "status": "current"
+      },
+      {
+        "name": "Tide Prison",
+        "status": "current"
+      },
+      {
+        "name": "AZ3",
+        "full_name": "AZ3 Nuclear Power Plant",
+        "status": "current"
+      }
+    ],
+    "source_url": "https://www.playdeltaforce.com/events/hq/"
+  },
+  "warfare": {
+    "official_hq_visible_count": 14,
+    "official_hq_visible_maps": [
+      "Trench Lines",
+      "Cracked",
+      "Trainwreck",
+      "Ascension",
+      "Knife Edge",
+      "Fault",
+      "Cyclone",
+      "Pyramid",
+      "Aftershock",
+      "Island Warfare",
+      "Akh Canal",
+      "Shafted",
+      "Threshold",
+      "Coliseum"
+    ],
+    "additional_current_patch_referenced_maps": [
+      {
+        "name": "Monument",
+        "status": "current_patch_referenced",
+        "reason": "Meltdown patch explicitly references Monument objective D and current systems.",
+        "source_url": "https://deltaforce.garena.com/en/news/all/2MX7J4"
+      }
+    ],
+    "verified_current_or_referenced_count": 15,
+    "source_url": "https://www.playdeltaforce.com/events/hq/"
+  },
+  "variants_and_special_map_states": [
+    {
+      "name": "Zero Dam - Night",
+      "parent_map": "Zero Dam",
+      "mode": "Operations",
+      "status": "special_variant",
+      "source_url": "https://deltaforce.garena.com/en/news/announcement/M3DB35"
+    }
+  ]
+}

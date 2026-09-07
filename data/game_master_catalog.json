@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-09-02",
+  "title": "DeltaForce AI Master Game Knowledge Catalog",
+  "current_season": "S10 - Meltdown",
+  "upcoming": "Reorientation - 2026-09-08",
+  "coverage": {
+    "weapons_official_hq": 66,
+    "operators_current": 17,
+    "operators_upcoming": 1,
+    "operations_maps_official_hq": 6,
+    "warfare_maps_official_hq": 14,
+    "warfare_maps_current_or_patch_referenced": 15,
+    "core_modes": 3,
+    "warfare_submodes_tracked": 9,
+    "operations_submodes_tracked": 6,
+    "vehicles_verified_or_referenced": 14,
+    "bosses_warlords_verified": 6,
+    "ammo_caliber_reference": 12,
+    "meltdown_new_ammo_variants": 9,
+    "community_attachment_reference_reported": 104,
+    "community_attachment_names_captured": 104,
+    "core_reference_systems": 5
+  },
+  "catalog_files": [
+    "weapons_catalog.json",
+    "operators_catalog.json",
+    "maps_catalog.json",
+    "modes_catalog.json",
+    "vehicles_catalog.json",
+    "bosses_catalog.json",
+    "ammo_catalog.json",
+    "attachments_catalog_community.json",
+    "systems_catalog.json",
+    "game_snapshot_2026-09-02.json"
+  ],
+  "policy": "Use structured catalogs for exhaustive list/count questions to avoid RAG Top-K truncation. Use RAG for descriptive/detail/strategy questions. Separate current, upcoming, rotating and historical content."
+}

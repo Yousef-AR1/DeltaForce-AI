@@ -1,0 +1,402 @@
+{
+  "version": "1.0",
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "notes": "Examples are semantic prototypes, not exact required phrases. The multilingual embedding model compares user meaning against these examples.",
+  "intents": {
+    "current_season": {
+      "canonical_ar": "شو الموسم الحالي وآخر تحديث؟",
+      "canonical_en": "What is the current season and latest update?",
+      "examples": [
+        "اي سيزن اللعبة الان",
+        "أي سيزن اللعبة الآن",
+        "شو السيزن هسا",
+        "شو السيزن هسه",
+        "احنا بأي سيزن هلق",
+        "احنا بأي موسم هلأ",
+        "وش السيزن الحين",
+        "ايش الموسم دحين",
+        "شنو السيزن هسه",
+        "احنا بشنو موسم هسه",
+        "الموسم ايه دلوقتي",
+        "احنا في سيزون كام دلوقتي",
+        "شنو الموسم توا",
+        "فاش موسم حنا دابا",
+        "واش حنا فاش سيزن دابا",
+        "السيزن الحالي شنو",
+        "الموسم اللي شغال حاليا",
+        "what season are we in",
+        "what season are we on",
+        "which season is live now",
+        "current season",
+        "what season is it rn",
+        "season right now",
+        "what's the live season currently"
+      ]
+    },
+    "mobile_release": {
+      "canonical_ar": "متى نزلت Delta Force على الموبايل؟",
+      "canonical_en": "When did Delta Force Mobile officially launch?",
+      "examples": [
+        "متى نزلت اللعبة للموبايل",
+        "متى نزلت على الجوال",
+        "امتى نزلت دلتا فورس موبايل",
+        "متى صدرت على اندرويد وايفون",
+        "شو تاريخ نزول نسخة الهاتف",
+        "متى طلعت للجوال",
+        "متى نزلت للموبايل رسمي",
+        "امتى اتوفرت للموبايل",
+        "شنو تاريخ نسخة الموبايل",
+        "متى نزلت ع التلفون",
+        "فوقاش خرجات للموبايل",
+        "وقتاش نزلت للموبايل",
+        "when did delta force mobile come out",
+        "mobile release date",
+        "when was delta force released on android",
+        "when did it launch on ios",
+        "when did mobile drop"
+      ]
+    },
+    "pc_release": {
+      "canonical_ar": "متى نزلت Delta Force على PC؟",
+      "canonical_en": "When did Delta Force launch on PC?",
+      "examples": [
+        "متى نزلت على البي سي",
+        "امتى صدرت على الكمبيوتر",
+        "تاريخ نزول دلتا فورس ستيم",
+        "متى نزلت للكمبيوتر رسمي",
+        "متى فتحوها على pc",
+        "when did delta force launch on pc",
+        "pc release date",
+        "when did it come to steam",
+        "when was the pc version released"
+      ]
+    },
+    "console_release": {
+      "canonical_ar": "متى نزلت Delta Force على PS5 وXbox؟",
+      "canonical_en": "When did Delta Force launch on PS5 and Xbox Series X|S?",
+      "examples": [
+        "متى نزلت على الكونسول",
+        "امتى صدرت على بلايستيشن",
+        "متى نزلت ع الاكس بوكس",
+        "تاريخ نسخة ps5",
+        "هل نزلت للكونسل ومتى",
+        "when did delta force launch on console",
+        "ps5 release date",
+        "xbox release date",
+        "when did it come to playstation"
+      ]
+    },
+    "versions_overview": {
+      "canonical_ar": "شو النسخ الموجودة من Delta Force؟",
+      "canonical_en": "What are the Global, Garena, and China versions of Delta Force?",
+      "examples": [
+        "شو نسخ اللعبة الموجودة",
+        "كم نسخة في دلتا فورس",
+        "شو الفرق بين جارينا والعالمي",
+        "نسخة جارينا ونسخة جلوبال شو الفرق",
+        "في نسخة صينية ونسخة عالمية",
+        "شنو الفرق بين النسخ",
+        "ايش نسخ دلتا فورس",
+        "what versions of delta force are there",
+        "difference between garena and global",
+        "global vs garena vs china",
+        "which delta force editions exist"
+      ]
+    },
+    "download_overview": {
+      "canonical_ar": "وين أقدر أنزل كل نسخة من Delta Force؟",
+      "canonical_en": "Where can I download each Delta Force version?",
+      "examples": [
+        "وين انزل اللعبة",
+        "من وين احمل دلتا فورس",
+        "وين تحميل نسخة جارينا",
+        "كيف انزل النسخة العالمية",
+        "منين احمل اللعبة",
+        "فين انزل دلتا فورس",
+        "وين القاها للتحميل",
+        "where can i download delta force",
+        "where do i install the game",
+        "where can i get global delta force",
+        "download garena delta force"
+      ]
+    },
+    "account_progression": {
+      "canonical_ar": "هل حساب Garena نفس Global وهل ينتقل التقدم؟",
+      "canonical_en": "How do accounts and cross-progression work between Garena and Global?",
+      "examples": [
+        "هل حساب جارينا نفس ستيم",
+        "اقدر انقل حسابي من ستيم لجارينا",
+        "هل التقدم ينتقل بين الموبايل والبي سي",
+        "الحساب واحد بين global و garena",
+        "هل في كروس بروجرشن",
+        "نقل الحساب بين النسخ",
+        "does garena share progress with steam",
+        "can i transfer my account to garena",
+        "cross progression global and garena",
+        "is progress shared between pc and mobile"
+      ]
+    },
+    "all_operators": {
+      "canonical_ar": "اعطيني جميع الشخصيات الحالية",
+      "canonical_en": "List all current Delta Force operators.",
+      "examples": [
+        "اعطيني كل الشخصيات",
+        "مين كل الاوبريتورز",
+        "شو الشخصيات الموجودة حاليا",
+        "هات جميع العملاء",
+        "من هم كل الاوبريتورات",
+        "كم شخصية ومين هم",
+        "شنو الشخصيات الموجودة",
+        "مين الشخصيات هسه",
+        "كل الاوبراتور الموجودين",
+        "list all operators",
+        "who are all the current operators",
+        "every character in delta force",
+        "current operator roster"
+      ]
+    },
+    "all_operations_maps": {
+      "canonical_ar": "اعطيني جميع خرائط Operations الحالية",
+      "canonical_en": "List all current Operations maps.",
+      "examples": [
+        "شو كل خرائط العمليات",
+        "اعطيني خرايط operations كلها",
+        "ما هي جميع خرائط طور العمليات",
+        "كل مابات الاوبريشنز",
+        "شنو خرائط العمليات",
+        "خرائط operations الحالية كلها",
+        "list all operations maps",
+        "every operations map",
+        "what maps are in operations"
+      ]
+    },
+    "all_warfare_maps": {
+      "canonical_ar": "اعطيني جميع خرائط Warfare الحالية",
+      "canonical_en": "List all current Warfare maps.",
+      "examples": [
+        "شو خرائط وارفير كلها",
+        "اعطيني كل مابات الحرب",
+        "جميع خرائط warfare",
+        "شنو مابات طور الحرب",
+        "list all warfare maps",
+        "every warfare map",
+        "what maps are in warfare"
+      ]
+    },
+    "all_modes": {
+      "canonical_ar": "اعطيني كل أطوار اللعبة",
+      "canonical_en": "List all tracked Delta Force game modes.",
+      "examples": [
+        "شو كل اطوار اللعبة",
+        "اعطيني جميع المودات",
+        "ما هي أوضاع اللعب كلها",
+        "شنو الاطوار الموجودة",
+        "كل المودات بدلتا فورس",
+        "ايش اطوار اللعبة",
+        "list all game modes",
+        "what modes are in delta force",
+        "every mode in the game"
+      ]
+    },
+    "all_vehicles": {
+      "canonical_ar": "اعطيني جميع المركبات",
+      "canonical_en": "List all verified Delta Force vehicles.",
+      "examples": [
+        "شو كل المركبات",
+        "اعطيني جميع السيارات والدبابات والطائرات",
+        "ما هي مركبات اللعبة",
+        "شنو المركبات الموجودة",
+        "كل الدبابات والمروحيات",
+        "list all vehicles",
+        "every vehicle in delta force",
+        "what vehicles are in the game"
+      ]
+    },
+    "all_bosses": {
+      "canonical_ar": "اعطيني جميع الـBosses والـWarlords",
+      "canonical_en": "List all verified Delta Force bosses and warlords.",
+      "examples": [
+        "مين كل البوسات",
+        "اعطيني جميع الزعماء",
+        "شو البوسات الموجودة",
+        "شنو الزعماء في operations",
+        "كل الwarlords",
+        "list all bosses",
+        "who are all the warlords",
+        "every boss in delta force"
+      ]
+    },
+    "all_ammo": {
+      "canonical_ar": "اعطيني جميع أنواع الذخيرة والعيارات",
+      "canonical_en": "List the tracked Delta Force ammo and calibers.",
+      "examples": [
+        "اعطيني كل الذخيرة",
+        "شو عيارات الرصاص",
+        "جميع انواع الامو",
+        "شنو الذخائر الموجودة",
+        "كل العيارات",
+        "list all ammo",
+        "all ammunition types",
+        "what calibers are in delta force"
+      ]
+    },
+    "all_attachments": {
+      "canonical_ar": "اعطيني جميع الـAttachments المرجعية",
+      "canonical_en": "List the tracked Delta Force attachments.",
+      "examples": [
+        "اعطيني كل الملحقات",
+        "شو جميع الاتاشمنتات",
+        "كل تعديلات السلاح",
+        "شنو الattachments الموجودة",
+        "جميع ملحقات الاسلحة",
+        "list all attachments",
+        "every weapon attachment",
+        "all gunsmith parts"
+      ]
+    },
+    "all_systems": {
+      "canonical_ar": "اعطيني جميع أنظمة اللعبة المرجعية",
+      "canonical_en": "List the tracked Delta Force game systems.",
+      "examples": [
+        "شو انظمة اللعبة",
+        "اعطيني كل السيستمات",
+        "ما هي أنظمة operations",
+        "black site والسوق والانظمة كلها",
+        "شنو السيستمات الموجودة",
+        "list all systems",
+        "what game systems are tracked",
+        "operations economy systems"
+      ]
+    },
+    "all_weapons": {
+      "canonical_ar": "اعطيني جميع الأسلحة في Delta Force",
+      "canonical_en": "List all weapons in Delta Force.",
+      "examples": [
+        "اعطيني كل الاسلحة",
+        "شو جميع اسلحة اللعبة",
+        "هات كل السلاح الموجود",
+        "كم سلاح ومين هم",
+        "شنو الاسلحة كلها",
+        "كل الguns في اللعبة",
+        "list every weapon",
+        "all weapons in delta force",
+        "complete weapon list"
+      ]
+    },
+    "all_lmg": {
+      "canonical_ar": "اعطيني جميع أسلحة فئة الرشاش الخفيف",
+      "canonical_en": "List all LMG weapons in Delta Force.",
+      "examples": [
+        "كل الرشاشات الخفيفة",
+        "اعطيني اسلحة lmg كلها",
+        "شو اسلحة الرشاش الخفيف",
+        "شنو الرشاشات الخفيفة",
+        "كل light machine guns",
+        "list all lmgs",
+        "every light machine gun"
+      ]
+    },
+    "all_shotguns": {
+      "canonical_ar": "اعطيني جميع أسلحة الشوزن",
+      "canonical_en": "List all shotguns in Delta Force.",
+      "examples": [
+        "كل الشوزن",
+        "اعطيني بنادق الصيد كلها",
+        "شو اسلحة shotgun",
+        "شنو الشوتقن الموجودة",
+        "list all shotguns",
+        "every shotgun"
+      ]
+    },
+    "all_smg": {
+      "canonical_ar": "اعطيني جميع أسلحة SMG",
+      "canonical_en": "List all SMG weapons in Delta Force.",
+      "examples": [
+        "كل الرشاشات القصيرة",
+        "اعطيني اسلحة smg كلها",
+        "شو الsubmachine guns",
+        "list all smgs",
+        "every submachine gun"
+      ]
+    },
+    "all_snipers": {
+      "canonical_ar": "اعطيني جميع بنادق القنص",
+      "canonical_en": "List all sniper rifles in Delta Force.",
+      "examples": [
+        "كل القناصات",
+        "اعطيني اسلحة السنايبر كلها",
+        "شو بنادق القنص",
+        "شنو السنايبرز",
+        "list all sniper rifles",
+        "every sniper"
+      ]
+    },
+    "all_marksman": {
+      "canonical_ar": "اعطيني جميع بنادق Marksman",
+      "canonical_en": "List all marksman rifles in Delta Force.",
+      "examples": [
+        "كل الماركسمان",
+        "اعطيني dmr كلها",
+        "شو بنادق الرامي المميز",
+        "list all marksman rifles",
+        "every dmr"
+      ]
+    },
+    "all_rifles": {
+      "canonical_ar": "اعطيني جميع البنادق",
+      "canonical_en": "List all rifle-category weapons in Delta Force.",
+      "examples": [
+        "كل البنادق",
+        "اعطيني assault rifles كلها",
+        "شو البنادق الهجومية والقتالية",
+        "list all rifles",
+        "every assault rifle",
+        "all battle rifles"
+      ]
+    },
+    "all_pistols": {
+      "canonical_ar": "اعطيني جميع المسدسات",
+      "canonical_en": "List all pistols in Delta Force.",
+      "examples": [
+        "كل المسدسات",
+        "اعطيني pistols كلها",
+        "شو الهاندقن الموجودة",
+        "list all pistols",
+        "every handgun"
+      ]
+    },
+    "identity": {
+      "canonical_ar": "انت مين؟",
+      "canonical_en": "Who are you?",
+      "examples": [
+        "انت مين",
+        "منو انت",
+        "من انت بالضبط",
+        "شو انت",
+        "شنو انت",
+        "وش انت",
+        "who are you",
+        "what are you",
+        "tell me who you are"
+      ]
+    },
+    "capabilities": {
+      "canonical_ar": "شو بتقدر تعمل؟",
+      "canonical_en": "What can you do?",
+      "examples": [
+        "شو بتعرف تعمل",
+        "شنو تقدر تسوي",
+        "وش تقدر تسوي",
+        "تقدر تساعدني بشنو",
+        "بتعمل ايه",
+        "بشو بتفيدني",
+        "what can you do",
+        "how can you help me",
+        "what can i ask you"
+      ]
+    }
+  }
+}

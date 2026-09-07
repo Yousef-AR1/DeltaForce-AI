@@ -1,0 +1,306 @@
+[
+  {
+    "id": "v14_china_wegame",
+    "name": "WeGame - Delta Force China",
+    "type": "official_store",
+    "trust": 1.0,
+    "url": "https://www.wegame.com.cn/act/release/df20240923/",
+    "notes": "China PC pre-download/launch reference for September 26, 2024."
+  },
+  {
+    "id": "v14_xbox_store",
+    "name": "Xbox Store - Delta Force",
+    "type": "official_store",
+    "trust": 1.0,
+    "url": "https://www.xbox.com/ar-ae/games/store/delta-force/9nrmzxgkp4nm",
+    "notes": "Xbox Series X|S release date August 19, 2025."
+  },
+  {
+    "id": "v14_ps5_store",
+    "name": "PlayStation Store - Delta Force",
+    "type": "official_store",
+    "trust": 1.0,
+    "url": "https://store.playstation.com/en-us/product/UP5104-PPSA28881_00-0555800169353087",
+    "notes": "PS5 release date August 19, 2025."
+  },
+  {
+    "id": "v14_garena_account_faq",
+    "name": "Garena Steam-to-Garena / Account FAQ",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all/2PYFQX",
+    "notes": "Garena PC/mobile cross progression and historical transfer program details."
+  },
+  {
+    "id": "v14_garena_mena_mobile_release",
+    "name": "Garena MENA Mobile Launch Announcement",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/ar/news/all/X9D53N",
+    "notes": "Arabic MENA official announcement: mobile global launch April 21, 2025."
+  },
+  {
+    "id": "v14_garena_publish_regions",
+    "name": "Garena Delta Force Publishing Regions Announcement",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/announcement/TZB3DE",
+    "notes": "Garena publishing regions: SEA, Taiwan, Central/South America, Brazil, Middle East, North Africa."
+  },
+  {
+    "id": "v13_deltaforcedb_supplement",
+    "name": "Delta Force Database Wiki",
+    "type": "community",
+    "trust": 0.7,
+    "url": "https://deltaforcedb.com/wiki",
+    "notes": "Supplemental attachment/ammo/system reference. Not affiliated with Team Jade/Tencent."
+  },
+  {
+    "id": "v13_s10_operator_roster_crosscheck",
+    "name": "Timesaver - Delta Force S10 Operator Roster",
+    "type": "community_editorial",
+    "trust": 0.86,
+    "url": "https://timesaver.gg/blog/delta-force-best-operators-tier-list",
+    "notes": "Used for complete 17-operator S10 class roster; official sources override balance/details."
+  },
+  {
+    "id": "v13_official_rover",
+    "name": "Delta Force Official Steam News - Rover",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://steamcommunity.com/app/2507950/allnews/",
+    "notes": "Confirms Rover / Rowan Walsh / Clover and September 8 release."
+  },
+  {
+    "id": "v13_garena_aug27_latest",
+    "name": "Garena Delta Force - August 27 2026 Update",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all/7K772J",
+    "notes": "Latest live update in V13 snapshot; confirms Reorientation launches September 8."
+  },
+  {
+    "id": "v13_official_hq_current",
+    "name": "Delta Force Official HQ Tool Station",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://www.playdeltaforce.com/events/hq/",
+    "notes": "Current S10, map lists and official HQ gameplay data."
+  },
+  {
+    "id": "garena_mena_official_discord_tournaments_archive",
+    "name": "Garena Delta Force MENA Official Discord - Tournaments Archive",
+    "type": "official_discord_screenshot_archive",
+    "trust": 0.98,
+    "url": "local://data/evidence/garena_mena_discord/manifest.json",
+    "notes": "User-provided screenshots from the Garena Delta Force MENA Discord tournaments room. Used for regional event announcements, standings, schedules and results not consistently indexed on the public web."
+  },
+  {
+    "id": "garena_news",
+    "name": "Garena Delta Force News",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all",
+    "notes": "Primary feed for current updates and patch notes."
+  },
+  {
+    "id": "meltdown_patch",
+    "name": "Garena Delta Force - Meltdown Patch Notes",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/announcement/2MX7J4",
+    "notes": "Season Meltdown launch notes dated 2026-06-26 for the June 30 update."
+  },
+  {
+    "id": "july30_update",
+    "name": "Garena Delta Force - July 30 Mid-Season Update",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/announcement/JQTVNF",
+    "notes": "Mid-season events and balance changes."
+  },
+  {
+    "id": "july10_update",
+    "name": "Garena Delta Force - July 10 Operator Balance",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/announcement/A7WYBP",
+    "notes": "Official operator balance communication."
+  },
+  {
+    "id": "official_wiki",
+    "name": "Delta Force Official Wiki",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://www.playdeltaforce.com/act/officialwiki/",
+    "notes": "Official reference hub for weapons, gear, items, maps, operators and attachments."
+  },
+  {
+    "id": "official_map_tool",
+    "name": "Delta Force Official Map Tool",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://www.playdeltaforce.com/act/mapswiki/?lang=en",
+    "notes": "Official interactive Operations map reference."
+  },
+  {
+    "id": "black_hawk_down",
+    "name": "Garena Delta Force - Black Hawk Down Guide",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all/E6CN8A",
+    "notes": "Official campaign release and gameplay guide."
+  },
+  {
+    "id": "regional_2026",
+    "name": "Delta Force 2026 Regional Tournament Announcement",
+    "type": "official_esports",
+    "trust": 1.0,
+    "url": "https://www.playdeltaforce.com/en/detail/news-2026-delta-force-regional-tournament-open-qualifier-kicks-off.html",
+    "notes": "Official esports announcement."
+  },
+  {
+    "id": "tournament_handbook_v0610",
+    "name": "2026 Delta Force (V06.10) Tournament Handbook",
+    "type": "official_esports",
+    "trust": 1.0,
+    "url": "local://data/tournament-handbook-v06.10",
+    "notes": "User-provided 2026 Operations tournament handbook. Structured facts are extracted into knowledge.json for local RAG."
+  },
+  {
+    "id": "rise_series_2026",
+    "name": "Delta Force RISE SERIES 2026 Season 1 Official Rulebook v1.1.5",
+    "type": "official_esports",
+    "trust": 1.0,
+    "url": "local://data/rise-series-2026-season-1-rulebook-v1.1.5",
+    "notes": "User-provided official RISE SERIES 2026 Season 1 rulebook, release date 2026-07-23."
+  },
+  {
+    "id": "official_hq",
+    "name": "Delta Force Official HQ Tool Station",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://www.playdeltaforce.com/events/hq/en/index.html",
+    "notes": "Official Delta Force HQ tool with firearm catalog, Operations map tools and collectible listings."
+  },
+  {
+    "id": "weapon_assembly",
+    "name": "Delta Force Official Weapon Assembly Event",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://www.playdeltaforce.com/events/moddedfirearms/en/?language=EN",
+    "notes": "Official event page documenting example weapon attachments and effects."
+  },
+  {
+    "id": "aug27_2026",
+    "name": "Garena Delta Force - August 27 Update",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all/7K772J",
+    "notes": "August 27, 2026 update and official Reorientation season preview."
+  },
+  {
+    "id": "echo_2026",
+    "name": "Garena Delta Force - Echo Patch Notes",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all/YVRATP",
+    "notes": "Echo season patch notes."
+  },
+  {
+    "id": "ahsarah",
+    "name": "Garena Delta Force - Ahsarah Season Overview",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all/VPYSUD",
+    "notes": "Ahsarah season official overview."
+  },
+  {
+    "id": "war_ablaze",
+    "name": "Garena Delta Force - War Ablaze Preview",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/announcement/W9PGYU",
+    "notes": "War Ablaze official preview."
+  },
+  {
+    "id": "morphosis",
+    "name": "Garena Delta Force - Morphosis Season Overview",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF",
+    "notes": "Morphosis official season overview."
+  },
+  {
+    "id": "liquipedia_dfac_2025",
+    "name": "Liquipedia - Delta Force Arena Championship 2025",
+    "type": "verified_esports_reference",
+    "trust": 0.92,
+    "url": "https://liquipedia.net/deltaforce/Arena_Championship",
+    "notes": "MENA + Turkey DFI 2025 regional qualifier, standings and participants."
+  },
+  {
+    "id": "liquipedia_dfi_2025",
+    "name": "Liquipedia - Delta Force Invitational 2025",
+    "type": "verified_esports_reference",
+    "trust": 0.92,
+    "url": "https://liquipedia.net/deltaforce/Delta_Force_Invitational/2025",
+    "notes": "World championship results and MENA/Turkey representative I'M Special Gamer."
+  },
+  {
+    "id": "liquipedia_dfgl_emea_2026",
+    "name": "Liquipedia - Delta Force Global League 2026 EMEA Operations",
+    "type": "verified_esports_reference",
+    "trust": 0.92,
+    "url": "https://liquipedia.net/deltaforce/Delta_Force_Global_League/2026/EMEA/Operations",
+    "notes": "Regional Operations event explicitly listing Europe, MENA and CIS."
+  },
+  {
+    "id": "liquipedia_dfiw_emea_2026",
+    "name": "Liquipedia - DFI Warfare 2026 EMEA Qualifier",
+    "type": "verified_esports_reference",
+    "trust": 0.92,
+    "url": "https://liquipedia.net/deltaforce/Delta_Force_Invitational/Warfare/2026/EMEA_Qualifier",
+    "notes": "EMEA qualification path to DFI Warfare 2026."
+  },
+  {
+    "id": "liquipedia_rise_emea_s1",
+    "name": "Liquipedia - RISE Series EMEA Season 1",
+    "type": "verified_esports_reference",
+    "trust": 0.92,
+    "url": "https://liquipedia.net/deltaforce/Delta_Force_RISE_Series/2026/EMEA/Season_1",
+    "notes": "2026 EMEA regional Operations league Season 1."
+  },
+  {
+    "id": "liquipedia_rise_emea_s2_qual",
+    "name": "Liquipedia - RISE Series EMEA Season 2 Qualifier",
+    "type": "verified_esports_reference",
+    "trust": 0.92,
+    "url": "https://liquipedia.net/deltaforce/Delta_Force_RISE_Series/2026/EMEA/Season_2/Qualifier",
+    "notes": "Season 2 open qualifier dates, rules and progression."
+  },
+  {
+    "id": "liquipedia_rise_emea_s2",
+    "name": "Liquipedia - RISE Series EMEA Season 2",
+    "type": "verified_esports_reference",
+    "trust": 0.92,
+    "url": "https://liquipedia.net/deltaforce/Delta_Force_RISE_Series/2026/EMEA/Season_2",
+    "notes": "Upcoming EMEA Season 2 schedule, prize pool and format as of 2026-09-02."
+  },
+  {
+    "id": "official_rise_series_2026",
+    "name": "Delta Force Official - RISE Series 2026 Program",
+    "type": "official",
+    "trust": 1.0,
+    "url": "https://www.playdeltaforce.com/en/",
+    "notes": "Official announcement: RISE Series runs EMEA and Americas regional circuits with open qualifiers and a $1M annual pool across two seasons."
+  },
+  {
+    "id": "discord_garena_mena_batch1",
+    "name": "Garena Delta Force MENA Discord - tournament room archive batch 1",
+    "type": "user_provided_discord_archive",
+    "trust": 0.95,
+    "url": "local://garena-delta-force-mena/discord/tournaments/batch1",
+    "notes": "User-provided screenshots from the official Garena Delta Force MENA Discord tournament room. Used as first-party archive evidence for community and regional tournament announcements/results."
+  }
+]
