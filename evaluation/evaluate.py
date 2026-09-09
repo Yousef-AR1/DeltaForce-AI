@@ -15,7 +15,6 @@ from evaluation.metrics import (
     unknown_behavior_score,
 )
 from rag.rag_engine import DeltaForceRAG
-from config import settings
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -77,7 +76,7 @@ def run_evaluation(questions_path: Path | None = None) -> dict:
     summary["hallucination"] = summary["hallucination_risk"]
 
     output = {
-        "model": settings.model_name,
+        "model": "Qwen3-4B-Instruct-2507",
         "timestamp": datetime.now().isoformat(timespec="seconds"),
         "question_count": len(rows),
         "summary": summary,
@@ -87,7 +86,7 @@ def run_evaluation(questions_path: Path | None = None) -> dict:
 
     out_dir = BASE_DIR / "results"
     out_dir.mkdir(parents=True, exist_ok=True)
-    safe_model = "".join(c if c.isalnum() or c in "-_" else "_" for c in settings.model_name)
+    safe_model = "Qwen3-4B-Instruct-2507"
     out_path = out_dir / f"evaluation_{safe_model}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     out_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     return output

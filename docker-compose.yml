@@ -1,0 +1,14 @@
+services:
+  deltaforce-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deltaforce-ai
+    ports:
+      - "8501:8501"
+    environment:
+      LMSTUDIO_BASE_URL: "http://host.docker.internal:1234/v1"
+      LMSTUDIO_API_KEY: "lm-studio"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
