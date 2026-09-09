@@ -2,7 +2,7 @@
 
 DeltaForce AI is a local, domain-specialized assistant for **Delta Force** and related esports information.
 
-The project combines a local language model with retrieval-augmented generation (RAG), multilingual semantic search, structured catalogs, source metadata, freshness-aware ranking, and deterministic direct answers for complete lists and fixed facts.
+The project combines a local language model with retrieval-augmented generation (RAG), multilingual semantic search, structured catalogs, source metadata, freshness-aware ranking, deterministic direct answers, and Docker support for consistent application deployment.
 
 ## Main Features
 
@@ -16,9 +16,11 @@ The project combines a local language model with retrieval-augmented generation 
 - Source trust and freshness-aware re-ranking
 - Safe abstention when evidence is not reliable enough
 - Structured catalogs for complete lists and fixed facts
-- Delta Force weapons, operators, maps, modes, vehicles, bosses, ammo, systems, releases and regional versions
-- Garena MENA / EMEA esports data and a structured Garena MENA Discord tournament archive
+- Delta Force weapons, operators, maps, modes, vehicles, bosses, ammo, systems, releases, and regional versions
+- Garena MENA / EMEA esports data
+- Structured Garena MENA Discord tournament archive
 - Automated tests and evaluation questions
+- **Docker / Docker Compose support**
 
 ## Architecture
 
@@ -52,6 +54,35 @@ Direct Answer                   Multilingual Embedding
                                  Grounded Answer + Sources
 ```
 
+## Docker Architecture
+
+The application is containerized with Docker, while the Qwen model continues to run locally through LM Studio on the host machine.
+
+```text
+Windows Host
+|
+|-- LM Studio
+|   `-- Qwen3-4B-Instruct-2507
+|       `-- Local API: port 1234
+|
+`-- Docker Desktop
+    `-- deltaforce-ai container
+        |-- Python 3.11
+        |-- Streamlit
+        |-- RAG
+        |-- FAISS
+        |-- Sentence-Transformers
+        `-- Application code
+```
+
+The Docker container connects to LM Studio through:
+
+```text
+http://host.docker.internal:1234/v1
+```
+
+The local Qwen model is not copied into the Docker image.
+
 ## Why Two Answer Paths?
 
 RAG is useful for descriptive and evidence-based questions, but a Top-K retrieval step does not guarantee that every item in a long list will be returned.
@@ -70,7 +101,7 @@ Descriptive questions continue through the RAG pipeline.
 
 ## Technology Stack
 
-- Python
+- Python 3.11
 - Streamlit
 - Qwen3-4B-Instruct-2507
 - LM Studio
@@ -80,6 +111,9 @@ Descriptive questions continue through the RAG pipeline.
 - FAISS
 - JSON
 - Pytest
+- Docker
+- Docker Compose
+- WSL 2 on Windows
 
 ## Project Structure
 
@@ -90,6 +124,11 @@ DeltaForce-AI/
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
+├── .dockerignore
+├── Dockerfile
+├── docker-compose.yml
+├── docker-start.bat
+├── docker-stop.bat
 ├── run_app.bat
 ├── build_index.bat
 ├── setup_windows.bat
@@ -104,18 +143,206 @@ DeltaForce-AI/
 └── utils/
 ```
 
-## Setup
+# Running the Project with Docker
 
-### 1. Requirements
+## 1. Requirements
 
-Recommended environment:
+Install:
 
 - Windows 10/11
-- Python 3.11
+- Docker Desktop
+- WSL 2
 - LM Studio
-- Qwen3-4B-Instruct-2507 loaded in LM Studio
+- Qwen3-4B-Instruct-2507
 
-### 2. Create the virtual environment
+Docker Desktop should use the WSL 2 backend.
+
+To verify Docker:
+
+```powershell
+docker --version
+docker compose version
+```
+
+To verify WSL:
+
+```powershell
+wsl --status
+```
+
+## 2. Start LM Studio
+
+1. Open LM Studio.
+2. Open **Developer → Local Server**.
+3. Load:
+
+```text
+Qwen3-4B-Instruct-2507
+```
+
+4. Start the local server on port:
+
+```text
+1234
+```
+
+5. Enable **Serve on Local Network** if required by the installed LM Studio version.
+
+LM Studio should remain running while the application is using the local model.
+
+## 3. Build and Start the Docker Container
+
+The easiest method on Windows is:
+
+```bat
+docker-start.bat
+```
+
+This runs:
+
+```powershell
+docker compose up --build
+```
+
+During the first build Docker will:
+
+1. Download the Python 3.11 base image.
+2. Install the packages from `requirements.txt`.
+3. Copy the application into the image.
+4. Build the FAISS index.
+5. Start the Streamlit application.
+
+The initial build can take longer because Python packages and the embedding model may need to be downloaded.
+
+## 4. Open the Application
+
+After the container starts, open:
+
+```text
+http://localhost:8501
+```
+
+The Streamlit application is exposed from container port `8501` to the same port on the host machine.
+
+## 5. Stop the Application
+
+Use:
+
+```bat
+docker-stop.bat
+```
+
+or:
+
+```powershell
+docker compose down
+```
+
+## Docker Commands
+
+### Build the image
+
+```powershell
+docker compose build
+```
+
+### Build and run
+
+```powershell
+docker compose up --build
+```
+
+### Run in the background
+
+```powershell
+docker compose up -d
+```
+
+### Stop containers
+
+```powershell
+docker compose down
+```
+
+### Show running containers
+
+```powershell
+docker ps
+```
+
+### Show application logs
+
+```powershell
+docker compose logs -f
+```
+
+### Rebuild after code or dependency changes
+
+```powershell
+docker compose up --build
+```
+
+## Docker to LM Studio Connection
+
+Inside a Docker container, `localhost` refers to the container itself, not the Windows host.
+
+For this reason, `docker-compose.yml` configures:
+
+```yaml
+environment:
+  LMSTUDIO_BASE_URL: "http://host.docker.internal:1234/v1"
+  LMSTUDIO_API_KEY: "lm-studio"
+```
+
+This allows the application inside Docker to communicate with LM Studio running on Windows.
+
+The project reads the API address from the `LMSTUDIO_BASE_URL` environment variable.
+
+## GPU Usage
+
+The application container runs Streamlit, RAG, FAISS, and the Python application.
+
+The Qwen model itself runs in **LM Studio on the Windows host**. GPU acceleration for Qwen is therefore controlled by LM Studio, not by the Docker container.
+
+The current FAISS package is:
+
+```text
+faiss-cpu
+```
+
+This is sufficient for the current project data size.
+
+## Dockerfile
+
+The project uses `python:3.11-slim-bookworm` as the base image.
+
+The Dockerfile:
+
+- configures Python runtime settings
+- installs required Linux packages
+- installs `requirements.txt`
+- copies the application
+- builds the FAISS index
+- exposes Streamlit on port `8501`
+- includes a Streamlit health check
+- starts the application automatically
+
+## docker-compose.yml
+
+Docker Compose defines the `deltaforce-ai` service and configures:
+
+- application build
+- container name
+- port mapping
+- LM Studio host connection
+- host networking entry
+- automatic restart policy
+
+## Local Setup Without Docker
+
+The project can also run directly on Windows.
+
+### 1. Create the environment
 
 Run:
 
@@ -133,20 +360,21 @@ pip install -r requirements.txt
 copy .env.example .env
 ```
 
-### 3. Start LM Studio
+### 2. Start LM Studio
 
-1. Open LM Studio.
-2. Load **Qwen3-4B-Instruct-2507**.
-3. Start the local API server.
-4. Keep the default API address:
+Load:
+
+```text
+Qwen3-4B-Instruct-2507
+```
+
+and start the API server at:
 
 ```text
 http://localhost:1234/v1
 ```
 
-### 4. Build the FAISS index
-
-Run:
+### 3. Build the FAISS index
 
 ```bat
 build_index.bat
@@ -158,16 +386,7 @@ or:
 python -m ingestion.indexer
 ```
 
-The generated files are:
-
-```text
-vector_db/index.faiss
-vector_db/metadata.json
-```
-
-They are ignored by Git because they can be regenerated from the included knowledge data.
-
-### 5. Run the application
+### 4. Run Streamlit
 
 ```bat
 run_app.bat
@@ -249,7 +468,7 @@ Knowledge is separated into types such as:
 - `community`
 - `system_policy`
 
-The retriever considers semantic relevance together with lexical relevance, source trust, freshness, knowledge type, intent and topic.
+The retriever considers semantic relevance together with lexical relevance, source trust, freshness, knowledge type, intent, and topic.
 
 For factual questions, weak or unsupported evidence can trigger safe abstention instead of an invented answer.
 
@@ -266,20 +485,38 @@ data/documents/community/
 
 Rebuild the FAISS index after changing the RAG knowledge data.
 
+When Docker is used, rebuilding the Docker image also rebuilds the index because the Dockerfile runs:
+
+```text
+python -m ingestion.indexer
+```
+
 ## Testing
 
-Run:
+Run locally:
 
 ```bat
 pytest
 ```
 
+Or inside the running Docker container:
+
+```powershell
+docker exec -it deltaforce-ai pytest
+```
+
 ## Evaluation
 
-With LM Studio running and the FAISS index built:
+With LM Studio running and the FAISS index available:
 
 ```bat
 python -m evaluation.evaluate
+```
+
+Inside Docker:
+
+```powershell
+docker exec -it deltaforce-ai python -m evaluation.evaluate
 ```
 
 Generated evaluation files are written to:
@@ -291,9 +528,12 @@ evaluation/results/
 ## Repository Notes
 
 - `.env` is ignored by Git.
-- Virtual environments and Python cache files are ignored.
+- `venv/` and `.venv/` are ignored.
+- Python cache files are ignored.
 - Local model files are ignored.
-- Generated FAISS files are ignored and can be rebuilt.
+- Generated evaluation outputs are ignored.
+- `.dockerignore` prevents local development files from being copied into the Docker image.
+- The Qwen model is not included in the repository or Docker image.
 - `.env.example` contains only local development defaults.
 
 ## Model
@@ -305,3 +545,34 @@ Qwen3-4B-Instruct-2507
 ```
 
 There is no model selector or custom model input in the final application.
+
+## Default Ports
+
+| Service | Port |
+|---|---:|
+| Streamlit | `8501` |
+| LM Studio API | `1234` |
+
+## Quick Start
+
+1. Start Docker Desktop.
+2. Start LM Studio.
+3. Load `Qwen3-4B-Instruct-2507`.
+4. Start the LM Studio Local Server.
+5. Run:
+
+```bat
+docker-start.bat
+```
+
+6. Open:
+
+```text
+http://localhost:8501
+```
+
+7. Stop the application with:
+
+```bat
+docker-stop.bat
+```
